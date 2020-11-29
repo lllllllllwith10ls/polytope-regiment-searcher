@@ -21,11 +21,11 @@ public class RegimentTest {
 		RegimentMember oct = new RegimentMember(new String[] {trig1,trig2,trig2},"oct");
 		RegimentMember thah1 = new RegimentMember(new String[] {trig1,square},"thah1");
 		RegimentMember thah2 = new RegimentMember(new String[] {trig2,trig2,square},"thah2");
-		RegimentMember empty1 = new RegimentMember(new String[] {},"empty");
+		RegimentMember empty1 = new RegimentMember(new String[] {},"-");
 		RegimentMember tet = new RegimentMember(new String[] {trig1},"tet");
-		RegimentMember empty2 = new RegimentMember(new String[] {},"empty");
+		RegimentMember empty2 = new RegimentMember(new String[] {},"-");
 		RegimentMember trip = new RegimentMember(new String[] {trig1,square,square},"trip");
-		RegimentMember empty3 = new RegimentMember(new String[] {},"empty");
+		RegimentMember empty3 = new RegimentMember(new String[] {},"-");
 		
 		Regiment octReg = new Regiment(new RegimentMember[] {oct,thah1,thah2,empty1},"oct");
 		Regiment tetReg = new Regiment(new RegimentMember[] {tet,empty2},"tet");
@@ -43,15 +43,15 @@ public class RegimentTest {
 
 		RegimentMember ike = new RegimentMember(new String[] {trig},"ike");
 		RegimentMember gad = new RegimentMember(new String[] {peg},"gad");
-		RegimentMember empty = new RegimentMember(new String[] {},"empty");
+		RegimentMember empty = new RegimentMember(new String[] {},"-");
 		Regiment ikeReg = new Regiment(new RegimentMember[] {ike,gad,empty},"ike");
 
 		RegimentMember tut = new RegimentMember(new String[] {hig,hig,trig},"tut");
-		RegimentMember empty2 = new RegimentMember(new String[] {},"empty");
+		RegimentMember empty2 = new RegimentMember(new String[] {},"-");
 		Regiment tutReg = new Regiment(new RegimentMember[] {tut,empty2},"tut");
 
 		RegimentMember ti = new RegimentMember(new String[] {hig,hig,peg},"ti");
-		RegimentMember empty3 = new RegimentMember(new String[] {},"empty");
+		RegimentMember empty3 = new RegimentMember(new String[] {},"-");
 		Regiment tiReg = new Regiment(new RegimentMember[] {ti,empty3},"ti");
 		
 		
@@ -68,32 +68,32 @@ public class RegimentTest {
 		RegimentMember oct = new RegimentMember(new String[] {trig1,trig2,trig2},"oct");
 		RegimentMember thah1 = new RegimentMember(new String[] {trig1,square},"thah1");
 		RegimentMember thah2 = new RegimentMember(new String[] {trig2,trig2,square},"thah2");
-		RegimentMember empty1 = new RegimentMember(new String[] {},"empty");
+		RegimentMember empty1 = new RegimentMember(new String[] {},"-");
 		Regiment octReg = new Regiment(new RegimentMember[] {oct,thah1,thah2,empty1},"oct");
 		
 		RegimentMember ike = new RegimentMember(new String[] {trig1},"ike");
 		RegimentMember gad = new RegimentMember(new String[] {peg},"gad");
-		RegimentMember empty2 = new RegimentMember(new String[] {},"empty");
+		RegimentMember empty2 = new RegimentMember(new String[] {},"-");
 		Regiment ikeReg = new Regiment(new RegimentMember[] {ike,gad,empty2},"ike");
 		
 		RegimentMember pip = new RegimentMember(new String[] {peg,square,square},"pip");
-		RegimentMember empty3 = new RegimentMember(new String[] {},"empty");
+		RegimentMember empty3 = new RegimentMember(new String[] {},"-");
 		Regiment pipReg = new Regiment(new RegimentMember[] {pip,empty3},"trip");
 
 		RegimentMember tid = new RegimentMember(new String[] {dec,dec,trig1},"tid");
-		RegimentMember empty4 = new RegimentMember(new String[] {},"empty");
+		RegimentMember empty4 = new RegimentMember(new String[] {},"-");
 		Regiment tidReg = new Regiment(new RegimentMember[] {tid,empty4},"tid");
 
 		RegimentMember id = new RegimentMember(new String[] {trig2,trig2,peg},"id");
 		RegimentMember sidhid = new RegimentMember(new String[] {dec,peg},"sidhid");
 		RegimentMember seihid = new RegimentMember(new String[] {trig2,trig2,dec},"seihid");
-		RegimentMember empty5 = new RegimentMember(new String[] {},"empty");
+		RegimentMember empty5 = new RegimentMember(new String[] {},"-");
 		Regiment idReg = new Regiment(new RegimentMember[] {id,sidhid,seihid,empty5},"id");
 
 		RegimentMember srid = new RegimentMember(new String[] {square,square,trig1,peg},"srid");
 		RegimentMember saddid = new RegimentMember(new String[] {dec,dec,trig1,peg},"saddid");
 		RegimentMember sird = new RegimentMember(new String[] {square,square,dec,dec},"sird");
-		RegimentMember empty6 = new RegimentMember(new String[] {},"empty");
+		RegimentMember empty6 = new RegimentMember(new String[] {},"-");
 		Regiment sridReg = new Regiment(new RegimentMember[] {srid,saddid,sird,empty6},"srid");
 		
 		
@@ -143,7 +143,7 @@ public class RegimentTest {
 			while(scanner.hasNextInt()) {
 				regimentMembs.add(regimentMembers.get(scanner.nextInt()));
 			}
-			regimentMembs.add(new RegimentMember(new String[] {}, "empty"));
+			regimentMembs.add(new RegimentMember(new String[] {}, "-"));
 
 			RegimentMember[] temp = new RegimentMember[regimentMembs.size()];
 			temp = regimentMembs.toArray(temp);
@@ -160,9 +160,16 @@ public class RegimentTest {
 	}
 	public static void search(RegimentSearch search) {
 		ArrayList<RegimentMember[]> result = search.search();
-		System.out.println(Arrays.toString(search.getRegiments())+"\n");
-		for(int i = 0; i < result.size(); i++) {
-			System.out.println(Arrays.toString(result.get(i)));
+		for(int i = 0; i < search.getRegiments().length; i++) {
+			System.out.print(search.getRegiments()[i]+"\t");
 		}
+		System.out.println("\n");
+		for(int i = 0; i < result.size(); i++) {
+			for(int j = 0; j < result.get(i).length; j++) {
+				System.out.print(result.get(i)[j]+"\t");
+			}
+			System.out.println();
+		}
+		System.out.println(result.size()+ " polytopes");
 	}
 }

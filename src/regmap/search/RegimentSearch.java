@@ -98,7 +98,7 @@ public class RegimentSearch {
 		for(int i = 0; i < polytopes.size(); i++) {
 			boolean isNull = true;
 			for(int j = 0; j < polytopes.get(i).length; j++) {
-				if(!polytopes.get(i)[j].toString().equals("empty")) {
+				if(!polytopes.get(i)[j].toString().equals("-")) {
 					isNull = false;
 				}
 				
@@ -121,7 +121,7 @@ public class RegimentSearch {
 				boolean isIrc = true;
 				for(int k = 0; k < polytopes.get(i).length; k++) {
 					if(polytopes.get(i)[k] != polytopes.get(j)[k] 
-							&& !polytopes.get(j)[k].toString().equals("empty")) {
+							&& !polytopes.get(j)[k].toString().equals("-")) {
 						isIrc = false;
 					}
 				}

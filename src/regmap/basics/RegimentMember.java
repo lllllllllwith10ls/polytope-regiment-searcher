@@ -23,4 +23,7 @@ public class RegimentMember {
 	public String toString() {
 		return /*Arrays.toString(ridges)+*/name;
 	}
+	public String name() {
+		return name;
+	}
 }
