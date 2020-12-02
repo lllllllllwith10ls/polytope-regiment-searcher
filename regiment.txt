@@ -1,28 +1,57 @@
-rox
-trig1 trig2 square peg dec
+nit
+oct1 oct2 oct3 thah1 thah2 co1 oho1 cho1 co2 oho2 cho2 co3 oho3 cho3 cube tet trip1 trip2 tut hip
+
+ico 0 1 2 2
+ratho1 0 3 3 11
+ratho2 1 4 4 11
+gico 14
+
+rap1 0 15
+firp1 15 16
+pinnip1 0 16
+
+rap2 1 15
+firp2 15 17
+pinnip2 1 17
+
+srip1 0 5 5 17
+rawvtip1 0 6 6 18
+sirdop1 7 7 17 18
+pirpop1 17 18 19
+garpop1 7 7 19
+pippindip1 0 5 5 18 19
+pinnipdip1 0 6 6 17 19
+
+srip2 1 8 8 16
+rawvtip2 1 9 9 18
+sirdop2 10 10 16 18
+pirpop2 16 18 19
+garpop2 10 10 19
+pippindip2 1 8 8 18 19
+pinnipdip2 1 9 9 16 19
+
+rit 11 15
+firt 15 18
+hinnit 11 18
+
+cope 11 11 14 16 17
+ohope 12 12 16 17 19
+chope 13 13 14 19
+
+tisdip 14 16 17
+
+shiddip 14 19
 ~~~
-oct 0 1 1
-thah1 0 2
-thah2 1 1 2
-
-ike 0
-gad 3
-
-pip 2 2 3
-
-tid 4 4 0
-
-id 1 1 3
-sidhid 3 4
-seihid 1 1 4
-
-srid 2 2 0 3
-saddid 4 4 0 3
-sird 0 0 4 4
+co1 5 7
+co2 8 10
+co3 11 13
 ~~~
-oct 0 1 2
-ike 3 4
-pip 5
-tid 6
-id 7 8 9
-srid 10 11 12
+ico 20 23
+rap1 24 26
+rap2 27 29
+srip1 30 36
+srip2 37 43
+rit 44 46
+cope 47 49
+tisdip 50
+shiddip 51

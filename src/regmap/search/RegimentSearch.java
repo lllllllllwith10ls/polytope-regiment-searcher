@@ -1,7 +1,6 @@
 package regmap.search;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashMap;
 
 import regmap.basics.Regiment;
@@ -44,16 +43,16 @@ public class RegimentSearch {
 					regimentMembers[polytopeNumber[polytopeLayer]];
 			boolean conflict = false;
 			
-			HashMap<String,Integer> usedRidges = new HashMap<>();
+			HashMap<RegimentMember,Integer> usedRidges = new HashMap<>();
 			for(int i = 0; i < currentPolytope.length; i++) {
 				if(currentPolytope[i] == null) {
 					continue;
 				} else {
-					for(int j = 0; j < currentPolytope[i].getRidges().length; j++) {
-						if(!usedRidges.containsKey(currentPolytope[i].getRidges()[j])) {
-							usedRidges.put(currentPolytope[i].getRidges()[j], 1);
+					for(int j = 0; j < currentPolytope[i].getFacets().length; j++) {
+						if(!usedRidges.containsKey(currentPolytope[i].getFacets()[j])) {
+							usedRidges.put(currentPolytope[i].getFacets()[j], 1);
 						} else {
-							usedRidges.put(currentPolytope[i].getRidges()[j], usedRidges.get(currentPolytope[i].getRidges()[j])+1);
+							usedRidges.put(currentPolytope[i].getFacets()[j], usedRidges.get(currentPolytope[i].getFacets()[j])+1);
 						}
 					}
 				}
@@ -75,11 +74,21 @@ public class RegimentSearch {
 				polytopeLayer++;
 				
 				if(polytopeLayer >= polytopeNumber.length) {
-					
-					for(int i = 0; i < usedRidges.keySet().toArray().length; i++) {
-						if(usedRidges.get(usedRidges.keySet().toArray()[i]) != 0 && 
-								usedRidges.get(usedRidges.keySet().toArray()[i]) != 2) {
+					RegimentMember[] ridges = new RegimentMember[usedRidges.keySet().toArray().length];
+					ridges = usedRidges.keySet().toArray(ridges);
+					for(int i = 0; i < ridges.length; i++) {
+						if(usedRidges.get(ridges[i]) != 0 && 
+								usedRidges.get(ridges[i]) != 2) {
 							conflict = true;
+						}
+					}
+					for(int i = 0; i < ridges.length; i++) {
+						for(int j = 0; j < ridges.length; j++) {
+							if(i != j) {
+								if(conflictingElements(ridges[i],ridges[j])) {
+									conflict = true;
+								}
+							}
 						}
 					}
 					if(!conflict) {
@@ -135,5 +144,21 @@ public class RegimentSearch {
 			polytopes.remove(ircs.get(i));
 		}
 		return polytopes;
+	}
+	public boolean conflictingElements(RegimentMember a, RegimentMember b) {
+		if(a == b || a.toString() == "-" || b.toString() == "-") {
+			return false;
+		} else if(a.getParent() != null && b.getParent() != null && a.getParent() == b.getParent()) {
+			return true;
+		} else {
+			for(int i = 0; i < a.getFacets().length; i++) {
+				for(int j = 0; j < b.getFacets().length; j++) {
+					if(conflictingElements(a.getFacets()[i],b.getFacets()[j])) {
+						return true;
+					}
+				}
+			}
+			return false;
+		}
 	}
 }

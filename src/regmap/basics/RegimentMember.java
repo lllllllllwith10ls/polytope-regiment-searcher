@@ -1,27 +1,25 @@
 package regmap.basics;
 
-import java.util.Arrays;
-
 public class RegimentMember {
-	private String[] ridges;
+	private RegimentMember[] facets;
 	private String name;
 	private Regiment parent;
-	public RegimentMember(String[] nRidges, String nName) {
-		ridges = nRidges;
+	public RegimentMember(RegimentMember[] nFacets, String nName) {
+		facets = nFacets;
 		name = nName;
 		parent = null;
 	}
 	public void setParent(Regiment parentReg) {
 		parent = parentReg;
 	}
-	public String[] getRidges() {
-		return ridges;
+	public RegimentMember[] getFacets() {
+		return facets;
 	}
 	public Regiment getParent() {
 		return parent;
 	}
 	public String toString() {
-		return /*Arrays.toString(ridges)+*/name;
+		return name;
 	}
 	public String name() {
 		return name;
