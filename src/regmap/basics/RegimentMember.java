@@ -24,4 +24,12 @@ public class RegimentMember {
 	public String name() {
 		return name;
 	}
+	public boolean contains(RegimentMember polytope) {
+		for(int i = 0; i < facets.length; i++) {
+			if(facets[i] == polytope || facets[i].contains(polytope)) {
+				return true;
+			}
+		}
+		return false;
+	}
 }

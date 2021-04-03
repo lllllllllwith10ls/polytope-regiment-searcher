@@ -1,0 +1,77 @@
+nit
+
+oct1 
+oct2
+oct3 
+thah1 
+thah2 
+co1 
+oho1 
+cho1 
+co2 
+oho2 
+cho2 
+co3 
+oho3 
+cho3 
+cube 
+tet 
+trip1
+trip2 
+tut 
+hip
+
+ico oct1 oct2 oct3 oct3
+ratho1 oct1 thah1 thah1 co3
+ratho2 oct2 thah2 thah2 co3
+gico cube
+
+rap1 oct1 tet
+firp1 tet trip1
+pinnip1 oct1 trip1
+
+rap2 oct2 tet
+firp2 tet trip2
+pinnip2 oct2 trip2
+
+srip1 oct1 co1 co1 trip2
+rawvtip1 oct1 oho1 oho1 tut
+sirdop1 cho1 cho1 trip2 tut
+pirpop1 trip2 tut hip
+garpop1 cho1 cho1 hip
+pippindip1 oct1 co1 co1 tut hip
+pinnipdip1 oct1 oho1 oho1 trip2 hip
+
+srip2 oct2 co2 co2 trip1
+rawvtip2 oct2 oho2 oho2 tut
+sirdop2 cho2 cho2 trip1 tut
+pirpop2 trip1 tut hip
+garpop2 cho2 cho2 hip
+pippindip2 oct2 co2 co2 tut hip
+pinnipdip2 oct2 oho2 oho2 trip1 hip
+
+rit co3 tet
+firt tet tut
+hinnit co3 tut
+
+cope co3 co3 cube trip1 trip2
+ohope oho3 oho3 trip1 trip2 hip
+chope cho3 cho3 cube hip
+
+tisdip cube trip1 trip2
+
+shiddip cube hip
+~~~
+co1 co1 oho1 cho1
+co2 co2 oho2 cho2
+co3 co3 oho3 cho3
+~~~
+ico ico ratho1 ratho2 gico
+rap1 rap1 firp1 pinnip1
+rap2 rap2 firp2 pinnip2
+srip1 srip1 rawvtip1 sirdop1 pirpop1 garpop1 pippindip1 pinnipdip1
+srip2 srip2 rawvtip2 sirdop2 pirpop2 garpop2 pippindip2 pinnipdip2
+rit rit firt hinnit
+cope cope ohope chope
+tisdip tisdip
+shiddip shiddip

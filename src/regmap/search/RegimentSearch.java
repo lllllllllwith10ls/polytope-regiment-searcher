@@ -8,6 +8,7 @@ import regmap.basics.RegimentMember;
 
 public class RegimentSearch {
 	private Regiment[] regiments;
+	private ArrayList<RegimentMember[]> foundPolytopes;
 	
 	public RegimentSearch(Regiment[] reg) {
 		regiments = reg;
@@ -15,7 +16,7 @@ public class RegimentSearch {
 	public Regiment[] getRegiments() {
 		return regiments;
 	}
-	public ArrayList<RegimentMember[]> search() {
+	public void search() {
 		ArrayList<RegimentMember[]> validPolytopes = new ArrayList<>();
 		int[] polytopeNumber = new int[regiments.length];
 		int polytopeLayer = 0;
@@ -100,7 +101,7 @@ public class RegimentSearch {
 			}
 		}
 		validPolytopes = removeIRCs(validPolytopes);
-		return validPolytopes;
+		foundPolytopes = validPolytopes;
 	}
 	public ArrayList<RegimentMember[]> removeIRCs(ArrayList<RegimentMember[]> polytopes) {
 		ArrayList<RegimentMember[]> nullPolytopes = new ArrayList<>();
@@ -160,5 +161,8 @@ public class RegimentSearch {
 			}
 			return false;
 		}
+	}
+	public ArrayList<RegimentMember[]> getPolytopes() {
+		return foundPolytopes;
 	}
 }

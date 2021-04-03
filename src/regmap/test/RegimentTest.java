@@ -2,7 +2,9 @@ package regmap.test;
 
 import java.io.File;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Scanner;
+import java.util.HashMap;
 
 import regmap.basics.Regiment;
 import regmap.basics.RegimentMember;
@@ -22,76 +24,95 @@ public class RegimentTest {
 			
 		}
 		String title = scanner.nextLine();
-		ArrayList<RegimentMember> regimentMembers = new ArrayList<>();
+		HashMap<String,RegimentMember> regimentMembers = new HashMap<>();
 		while(true) {
 			ArrayList<RegimentMember> ridges = new ArrayList<>();
-			String name = scanner.next();
-			if(name.contains("~~~")) {
+			String ridgeStr = scanner.nextLine();
+			if(ridgeStr.contains("~~~")) {
 				break;
 			}
-			while(scanner.hasNextInt()) {
-				ridges.add(regimentMembers.get(scanner.nextInt()));
+			Scanner tempScan = new Scanner(ridgeStr);
+			if(!tempScan.hasNext()) {
+				continue;
 			}
+			String name = tempScan.next();
+			while(tempScan.hasNext()) {
+				ridges.add(regimentMembers.get(tempScan.next()));
+			}
+			tempScan.close();
 			RegimentMember[] temp = new RegimentMember[ridges.size()];
 			temp = ridges.toArray(temp);
-			regimentMembers.add(new RegimentMember(temp,name));
+			regimentMembers.put(name,new RegimentMember(temp,name));
 		}
 		
 		
-		ArrayList<Regiment> subRegiments = new ArrayList<>();
+		HashMap<String,Regiment> subRegiments = new HashMap<>();
 		while(true) {
 			ArrayList<RegimentMember> regimentMembs = new ArrayList<>();
-			ArrayList<Integer> regimentNumbs = new ArrayList<>();
-			String name = scanner.next();
-			if(name.contains("~~~")) {
+			ArrayList<String> regimentStrings = new ArrayList<>();
+
+			String memberStr = scanner.nextLine();
+			if(memberStr.contains("~~~")) {
 				break;
 			}
-			while(scanner.hasNextInt()) {
-				regimentNumbs.add(scanner.nextInt());
+			Scanner tempScan = new Scanner(memberStr);
+			if(!tempScan.hasNext()) {
+				continue;
 			}
-			for(int i = regimentNumbs.get(0); i <= regimentNumbs.get(regimentNumbs.size()-1); i++) {
-				regimentMembs.add(regimentMembers.get(i));
+			String name = tempScan.next();
+			while(tempScan.hasNext()) {
+				regimentStrings.add(tempScan.next());
+			}
+			tempScan.close();
+			for(int i = 0; i < regimentStrings.size(); i++) {
+				regimentMembs.add(regimentMembers.get(regimentStrings.get(i)));
 			}
 			regimentMembs.add(new RegimentMember(new RegimentMember[] {}, "-"));
 
 			RegimentMember[] temp = new RegimentMember[regimentMembs.size()];
 			temp = regimentMembs.toArray(temp);
 			
-			subRegiments.add(new Regiment(temp,name));
+			subRegiments.put(name,new Regiment(temp,name));
 		}
 		
-		ArrayList<Regiment> regiments = new ArrayList<>();
+		HashMap<String,Regiment> regiments = new HashMap<>();
 		while(true) {
 			ArrayList<RegimentMember> regimentMembs = new ArrayList<>();
-			ArrayList<Integer> regimentNumbs = new ArrayList<>();
-			if(!scanner.hasNext()) {
+			ArrayList<String> regimentStrings = new ArrayList<>();
+			if(!scanner.hasNextLine()) {
 				break;
 			}
-			String name = scanner.next();
-			while(scanner.hasNextInt()) {
-				regimentNumbs.add(scanner.nextInt());
+
+			String memberStr = scanner.nextLine();
+			Scanner tempScan = new Scanner(memberStr);
+			if(!tempScan.hasNext()) {
+				continue;
 			}
-			for(int i = regimentNumbs.get(0); i <= regimentNumbs.get(regimentNumbs.size()-1); i++) {
-				regimentMembs.add(regimentMembers.get(i));
+			String name = tempScan.next();
+			while(tempScan.hasNext()) {
+				regimentStrings.add(tempScan.next());
+			}
+			tempScan.close();
+			for(int i = 0; i < regimentStrings.size(); i++) {
+				regimentMembs.add(regimentMembers.get(regimentStrings.get(i)));
 			}
 			regimentMembs.add(new RegimentMember(new RegimentMember[] {}, "-"));
 
 			RegimentMember[] temp = new RegimentMember[regimentMembs.size()];
 			temp = regimentMembs.toArray(temp);
-			
-			regiments.add(new Regiment(temp,name));
+			regiments.put(name,new Regiment(temp,name));
 		}
 		System.out.println(title);
 
-		Regiment[] temp = new Regiment[regiments.size()];
-		temp = regiments.toArray(temp);
+		Regiment[] temp = regiments.values().toArray(new Regiment[0]);
 		
 		RegimentSearch search = new RegimentSearch(temp);
 		search(search);
 		scanner.close();
 	}
 	public static void search(RegimentSearch search) {
-		ArrayList<RegimentMember[]> result = search.search();
+		search.search();
+		ArrayList<RegimentMember[]> result = search.getPolytopes();
 		for(int i = 0; i < search.getRegiments().length; i++) {
 			System.out.print(search.getRegiments()[i]+"\t");
 		}
