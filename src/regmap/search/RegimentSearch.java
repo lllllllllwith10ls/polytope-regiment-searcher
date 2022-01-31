@@ -1,29 +1,42 @@
 package regmap.search;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
+import java.util.stream.Collectors;
 
 import regmap.basics.Regiment;
 import regmap.basics.RegimentMember;
+import regmap.defiss.Facial;
 
 public class RegimentSearch {
 	private Regiment[] regiments;
+	private ArrayList<Facial> facials;
 	private ArrayList<RegimentMember[]> foundPolytopes;
+	private ArrayList<RegimentMember[]> fissaryPolytopes;
 	
-	public RegimentSearch(Regiment[] reg) {
+	public RegimentSearch(Regiment[] reg, ArrayList<Facial> fac) {
 		regiments = reg;
+		facials = fac;
+		fissaryPolytopes = new ArrayList<>();
 	}
 	public Regiment[] getRegiments() {
 		return regiments;
 	}
 	public void search() {
+		int iters = 0;
 		ArrayList<RegimentMember[]> validPolytopes = new ArrayList<>();
 		int[] polytopeNumber = new int[regiments.length];
+		
 		int polytopeLayer = 0;
 		boolean finished = false;
 		RegimentMember[] currentPolytope = new RegimentMember[regiments.length];
-		
 		while(!finished) {
+			if(iters%50000 == 0) {
+				System.out.println(Arrays.toString(currentPolytope));
+				System.out.println(iters + " iters");
+			}
+			iters++;
 			boolean breakOut = false;
 			while(polytopeNumber[polytopeLayer] >= regiments[polytopeLayer].getRegimentMembers().length) {
 				if(polytopeLayer == 0) {
@@ -38,13 +51,13 @@ public class RegimentSearch {
 			if(breakOut) {
 				break;
 			}
-			RegimentMember[] regimentMembers = 
-					regiments[polytopeLayer].getRegimentMembers();
-			currentPolytope[polytopeLayer] = 
-					regimentMembers[polytopeNumber[polytopeLayer]];
+			for(int i = 0; i < currentPolytope.length; i++) {
+				currentPolytope[i] = 
+				regiments[i].getRegimentMembers()[polytopeNumber[i]];
+			}
 			boolean conflict = false;
-			
 			HashMap<RegimentMember,Integer> usedRidges = new HashMap<>();
+			
 			for(int i = 0; i < currentPolytope.length; i++) {
 				if(currentPolytope[i] == null) {
 					continue;
@@ -64,22 +77,19 @@ public class RegimentSearch {
 				}
 			}
 			if(conflict) {
-				polytopeLayer++;
-				if(polytopeLayer >= polytopeNumber.length) {
-					polytopeLayer--;
-					polytopeNumber[polytopeLayer]++;
+				polytopeNumber[polytopeLayer]++;
+				for(int i = polytopeLayer+1; i < polytopeNumber.length; i++) {
+					polytopeNumber[i] = 0;
 				}
 				continue;
 			} else {
-				
-				polytopeLayer++;
+				polytopeLayer = polytopeNumber.length;
 				
 				if(polytopeLayer >= polytopeNumber.length) {
 					RegimentMember[] ridges = new RegimentMember[usedRidges.keySet().toArray().length];
 					ridges = usedRidges.keySet().toArray(ridges);
 					for(int i = 0; i < ridges.length; i++) {
-						if(usedRidges.get(ridges[i]) != 0 && 
-								usedRidges.get(ridges[i]) != 2) {
+						if(usedRidges.get(ridges[i]) != 0 && usedRidges.get(ridges[i]) != 2) {
 							conflict = true;
 						}
 					}
@@ -94,6 +104,10 @@ public class RegimentSearch {
 					}
 					if(!conflict) {
 						validPolytopes.add(currentPolytope.clone());
+						if(validPolytopes.size()%1 == 0) {
+							System.out.println(Arrays.toString(currentPolytope));
+							System.out.println(validPolytopes.size());
+						}
 					}
 					polytopeLayer--;
 					polytopeNumber[polytopeLayer]++;
@@ -101,7 +115,7 @@ public class RegimentSearch {
 			}
 		}
 		validPolytopes = removeIRCs(validPolytopes);
-		foundPolytopes = validPolytopes;
+		defiss(validPolytopes);
 	}
 	public ArrayList<RegimentMember[]> removeIRCs(ArrayList<RegimentMember[]> polytopes) {
 		ArrayList<RegimentMember[]> nullPolytopes = new ArrayList<>();
@@ -162,7 +176,34 @@ public class RegimentSearch {
 			return false;
 		}
 	}
+	
+	public void defiss(ArrayList<RegimentMember[]> polytopes) {
+
+		for(int j = polytopes.size()-1; j >= 0; j--) {
+			boolean isFissary = false;
+			for(int i = 0; i < facials.size(); i++) {
+				if(facials.get(i).fissary(polytopes.get(j))) {
+					System.out.println(Arrays.toString(polytopes.get(j))+"(F)");
+					System.out.println(facials.get(i));
+					isFissary = true;
+				}
+			}
+			for(int i = 0; i < polytopes.get(j).length; i++) {
+				if(polytopes.get(j)[i].name().contains("(F)")) {
+					isFissary = true;
+				}
+			}
+			if(isFissary) {
+				fissaryPolytopes.add(polytopes.remove(j));
+			}
+		}
+		foundPolytopes = polytopes;
+	}
+
 	public ArrayList<RegimentMember[]> getPolytopes() {
 		return foundPolytopes;
+	}
+	public ArrayList<RegimentMember[]> getFissaries() {
+		return fissaryPolytopes;
 	}
 }

@@ -1,0 +1,48 @@
+ril
+
+dyad
+
+trig1 dyad 
+trig2 dyad 
+square dyad 
+
+
+tet trig1
+oct trig1 trig2
+trip trig1 square
+
+
+pen tet
+
+rap tet oct
+firp tet trip
+pinnip trip oct
+
+tepe tet trip
+
+triddip trip
+
+
+
+hix pen
+
+rix rap rap pen
+cabnix rap rap tepe triddip
+firx pen tepe triddip 
+cax firp firp tepe
+baddix firp firp pen triddip
+cindax pinnip pinnip pen tepe
+nobax pinnip pinnip triddip
+
+penp pen tepe
+
+tratet tepe triddip triddip
+~~~
+rap rap firp pinnip
+~~~
+rix rix cabnix firx cax baddix cindax nobax
+
+hix hix
+penp penp
+tratet tratet
+~~~

@@ -1,0 +1,1088 @@
+scal
+
+vertex
+
+dyad1 vertex
+dyad2 vertex
+
+square1 dyad1
+square2 dyad1 dyad2
+
+trig1 dyad2
+trig2 dyad1
+trig3 dyad2
+
+hig dyad1 dyad2
+
+
+oct trig2 trig3
+thah1 trig2 square1
+thah2 trig3 square1
+
+tet1 trig1
+tet2 trig2
+
+co square2 trig1 trig2
+oho trig1 trig2 hig
+cho square2 hig
+
+tut hig trig3
+
+trip1 square1 trig2
+trip2 square2 trig2
+trip3 square2 trig3
+trip4 square2 trig1
+
+hip square1 square2 hig
+
+cube square1 square2
+
+
+
+pen1 tet1
+pen2 tet2
+
+rap oct tet2
+firp tet2 trip1
+pinnip oct trip1
+
+srip oct trip3 co
+rawvtip oct tut oho
+sirdop trip3 tut cho
+pirpop trip3 tut hip
+garpop hip cho
+pippindip oct tut hip co
+pinnipdip oct trip3 hip oho
+
+spid tet1 tet2 trip2 trip4
+piphid1 tet1 co trip2
+piphid2 tet2 co trip4
+duhd tet1 tet2 oho
+phud trip2 trip4 oho
+nipdip1 tet1 cho trip4
+nipdip2 tet2 cho trip2
+
+ope oct trip2 trip3
+thahp1 thah1 trip2 cube
+thahp2 thah2 trip3 cube
+
+cope co trip1 trip4 cube
+ohope oho trip1 trip4 hip
+chope cho cube hip
+
+tepe1 tet2 trip1
+tepe2 tet2 trip2
+tepe3 tet1 trip4
+
+triddip1 trip2 trip4
+triddip2 trip1
+triddip3 trip3 trip4
+
+tisdip1 trip1 trip2 cube
+tisdip2 trip4 cube
+
+thiddip trip1 trip2 hip
+
+
+
+
+scad pen1 pen1 pen2 tepe2 tepe3 triddip1
+dibhid pen1 pen1 pen2 triddip1 spid
+chad tepe2 tepe3 spid
+dacox1 pen1 pen1 pen2 tepe2 piphid1
+dacox2 pen1 pen1 pen2 tepe3 piphid2
+bacox1 triddip1 tepe2 piphid2
+bacox2 triddip1 tepe3 piphid1
+dehad pen1 pen1 pen2 duhd
+bachid tepe2 tepe3 triddip1 duhd
+behad triddip1 phud
+dachid pen1 pen1 pen2 tepe2 tepe3 phud
+nacox1 tepe2 nipdip2
+nacox2 tepe3 nipdip1
+dabcax1 pen1 pen1 pen2 triddip1 tepe2 nipdip1
+dabcax2 pen1 pen1 pen2 triddip1 tepe3 nipdip2
+
+rix rap pen2
+cabnix rap tepe1 triddip2
+firx pen2 tepe1 triddip2
+cax firp tepe1
+baddix firp pen2 triddip2
+cindax pinnip pen2 tepe1
+nobax pinnip triddip2
+
+spix rap spid ope triddip3
+hipbox rap piphid2 srip srip triddip3
+hopix piphid1 srip srip ope
+rippix rap duhd rawvtip rawvtip
+ipax phud rawvtip rawvtip ope triddip3
+napix rap nipdip2 sirdop sirdop ope
+napbox nipdip1 sirdop sirdop triddip3
+sparx rap spid rawvtip rawvtip ohope thiddip
+spixe rap spid pippindip pippindip cope thiddip
+hipquabix piphid1 pirpop pirpop cope thiddip triddip3
+rapbox rap duhd ohope ope thiddip triddip3
+ipfax phud ohope thiddip
+napquax rap nipdip2 pirpop pirpop ope chope
+napquabix nipdip1 pirpop pirpop chope triddip3
+foparx rawvtip rawvtip ohope ope thiddip triddip3
+topax garpop garpop chope
+fopixe pippindip pippindip cope ope thiddip triddip3
+orpix firp spid srip srip cope ope
+plex firp spid sirdop sirdop chope thiddip triddip3
+paquix firp spid pirpop pirpop thiddip triddip3
+poyax firp spid pinnipdip pinnipdip ohope ope
+hipfox firp piphid2 cope
+hepibix firp piphid2 pippindip pippindip ope thiddip triddip3
+ripquax firp duhd pirpop pirpop ohope triddip3
+rapyox firp duhd pinnipdip pinnipdip ope thiddip
+napfix firp nipdip2 chope thiddip
+nepnix firp nipdip2 garpop garpop thiddip
+hipfabix pinnip piphid1 cope ope triddip3
+hopixe pinnip piphid1 pippindip pippindip thiddip
+ipquex pinnip phud pirpop pirpop ohope ope
+ipyax pinnip phud pinnipdip pinnipdip thiddip triddip3
+napfabix pinnip nipdip1 chope ope thiddip triddip3
+napnabix pinnip nipdip1 garpop garpop ope thiddip triddip3
+fepix pinnip srip srip cope triddip3
+foplex pinnip sirdop sirdop chope ope thiddip
+fapquax pinnip pirpop pirpop ope thiddip
+fipyax pinnip pinnipdip pinnipdip ohope triddip3
+hipquax(F) rap piphid2 pirpop pirpop cope ope thiddip
+
+
+rappip rap ope tepe2
+firpip firp tepe2 tisdip1
+pinpip pinnip ope tisdip1
+
+spiddip spid tepe3 tepe1 tisdip1 tisdip2 tisdip2
+piphiddip1 piphid1 tepe3 cope tisdip1
+piphiddip2 piphid2 tepe1 cope tisdip2 tisdip2
+duhdip duhd tepe3 tepe1 ohope
+phuddip phud tisdip1 tisdip2 tisdip2 ohope
+nipdippip1 nipdip1 tepe3 chope tisdip2 tisdip2
+nipdippip2 nipdip2 tepe1 chope tisdip1
+
+troct triddip1 triddip3 ope
+trathah1 triddip3 tisdip2 thahp1 
+trathah2 triddip1 tisdip2 thahp2
+
+tratet tepe3 triddip3
+
+hatet tepe1 tepe2 thiddip
+
+traco cope triddip1 triddip2 triddip2 tisdip1
+troho ohope triddip1 triddip2 triddip2 thiddip
+tracho chope tisdip1 thiddip
+~~~
+vertex vertex
+dyad1 dyad1
+dyad2 dyad2
+
+
+
+square1 square1
+square2 square2
+trig1 trig1
+trig2 trig2
+trig3 trig3
+hig hig
+
+
+tet1 tet1
+tet2 tet2
+tut tut
+trip1 trip1
+trip2 trip2
+trip3 trip3
+trip4 trip4
+hip hip
+cube cube
+
+oct oct thah1 thah2
+co co oho cho
+
+
+
+pen1 pen1
+pen2 pen2
+tepe1 tepe1
+tepe2 tepe2
+tepe3 tepe3
+triddip1 triddip1
+triddip2 triddip2
+triddip3 triddip3
+tisdip1 tisdip1
+tisdip2 tisdip2
+thiddip thiddip
+
+rap rap firp pinnip
+srip srip rawvtip sirdop pirpop garpop pippindip pinnipdip
+spid spid piphid1 piphid2 duhd phud nipdip1 nipdip2
+ope ope thahp1 thahp2
+cope cope ohope chope
+~~~
+spix spix hipbox hopix rippix ipax napix napbox sparx spixe hipquabix rapbox ipfax napquax napquabix foparx topax fopixe orpix plex paquix poyax hipfox hepibix ripquax rapyox napfix nepnix hipfabix hopixe ipquex ipyax napfabix napnabix fepix foplex fapquax fipyax hipquax(F)
+scad scad dibhid chad dacox1 dacox2 bacox1 bacox2 dehad bachid behad dachid nacox1 nacox2 dabcax1 dabcax2
+rix rix cabnix firx cax baddix cindax nobax 
+
+
+spiddip spiddip piphiddip1 piphiddip2 duhdip phuddip nipdippip1 nipdippip2 
+traco traco troho tracho
+rappip rappip firpip pinpip
+troct troct trathah1 trathah2 
+tratet tratet
+hatet hatet
+~~~
+vertex
+dyad1_1a dyad1 dyad1_2a dyad1 dyad1_3a dyad1 dyad1_4a dyad1 dyad1_1b dyad1 dyad1_2b dyad1 dyad1_3b dyad1 dyad1_4b dyad1 dyad2_1 dyad2 dyad2_2 dyad2 dyad2_3 dyad2 dyad2_4 dyad2
+
+dyad1_1a dyad1_2a trig2
+dyad1_1a dyad1_3a trig2
+dyad1_1a dyad1_4a trig2
+dyad1_2a dyad1_3a trig2
+dyad1_2a dyad1_4a trig2
+dyad1_3a dyad1_4a trig2
+
+dyad1_1b dyad1_2b trig2
+dyad1_1b dyad1_3b trig2
+dyad1_1b dyad1_4b trig2
+dyad1_2b dyad1_3b trig2
+dyad1_2b dyad1_4b trig2
+dyad1_3b dyad1_4b trig2
+
+dyad2_1 dyad2_2 trig1
+dyad2_1 dyad2_3 trig1
+dyad2_1 dyad2_4 trig1
+dyad2_2 dyad2_3 trig1
+dyad2_2 dyad2_4 trig1
+dyad2_3 dyad2_4 trig1
+
+dyad1_1a dyad1_1b trig3
+dyad1_2a dyad1_2b trig3
+dyad1_3a dyad1_3b trig3
+dyad1_4a dyad1_4b trig3
+
+dyad1_1a dyad1_2b square1
+dyad1_1a dyad1_3b square1
+dyad1_1a dyad1_4b square1
+dyad1_2a dyad1_1b square1
+dyad1_2a dyad1_3b square1
+dyad1_2a dyad1_4b square1
+dyad1_3a dyad1_1b square1
+dyad1_3a dyad1_2b square1
+dyad1_3a dyad1_4b square1
+dyad1_4a dyad1_1b square1
+dyad1_4a dyad1_2b square1
+dyad1_4a dyad1_3b square1
+
+dyad1_1a dyad2_3 hig
+dyad1_2a dyad2_4 hig
+dyad1_3a dyad2_1 hig
+dyad1_4a dyad2_2 hig
+dyad1_1b dyad2_3 hig
+dyad1_2b dyad2_4 hig
+dyad1_3b dyad2_1 hig
+dyad1_4b dyad2_2 hig
+
+dyad1_1a dyad2_1 square2
+dyad1_1a dyad2_2 square2
+dyad1_1a dyad2_4 square2
+dyad1_2a dyad2_1 square2
+dyad1_2a dyad2_2 square2
+dyad1_2a dyad2_3 square2
+dyad1_3a dyad2_2 square2
+dyad1_3a dyad2_3 square2
+dyad1_3a dyad2_4 square2
+dyad1_4a dyad2_1 square2
+dyad1_4a dyad2_3 square2
+dyad1_4a dyad2_4 square2
+
+dyad1_1b dyad2_1 square2
+dyad1_1b dyad2_2 square2
+dyad1_1b dyad2_4 square2
+dyad1_2b dyad2_1 square2
+dyad1_2b dyad2_2 square2
+dyad1_2b dyad2_3 square2
+dyad1_3b dyad2_2 square2
+dyad1_3b dyad2_3 square2
+dyad1_3b dyad2_4 square2
+dyad1_4b dyad2_1 square2
+dyad1_4b dyad2_3 square2
+dyad1_4b dyad2_4 square2
+~
+dyad1
+trig2_1 trig2 trig2_2 trig2 trig2_3 trig2 trig3 trig3 square1_1 square1 square1_2 square1 square1_3 square1 square2_1 square2 square2_2 square2 square2_3 square2 hig hig
+
+
+
+trig2_1 trig2_2 tet1
+trig2_1 trig2_3 tet1
+trig2_2 trig2_3 tet1
+
+
+
+trig2_1 trig3 oct
+trig2_2 trig3 oct
+trig2_3 trig3 oct
+
+trig2_1 square1_1 oct
+trig2_2 square1_2 oct
+trig2_3 square1_3 oct
+
+square1_1 trig3 oct
+square1_2 trig3 oct
+square1_3 trig3 oct
+
+
+
+trig2_1 square1_2 trip1
+trig2_1 square1_3 trip1
+trig2_2 square1_1 trip1
+trig2_2 square1_3 trip1
+trig2_3 square1_1 trip1
+trig2_3 square1_2 trip1
+
+square1_1 square1_2 trip1
+square1_1 square1_3 trip1
+square1_2 square1_3 trip1
+
+
+
+trig2_1 square2_2 trip2
+trig2_1 square2_3 trip2
+trig2_2 square2_1 trip2
+trig2_2 square2_3 trip2
+trig2_3 square2_1 trip2
+trig2_3 square2_2 trip2
+
+
+
+trig3 square2_1 trip3
+trig3 square2_2 trip3
+trig3 square2_3 trip3
+
+
+
+square2_1 square2_2 trip4
+square2_1 square2_3 trip4
+square2_2 square2_3 trip4
+
+
+
+trig2_1 square2_1 co
+trig2_2 square2_2 co
+trig2_3 square2_3 co
+
+hig square2_1 co
+hig square2_2 co
+hig square2_3 co
+
+trig2_1 hig co
+trig2_2 hig co
+trig2_3 hig co
+
+
+
+
+square1_1 hig hip
+square1_2 hig hip
+square1_3 hig hip
+
+square1_1 square2_1 hip
+square1_2 square2_2 hip
+square1_3 square2_3 hip
+
+
+
+square1_1 square2_2 cube
+square1_1 square2_3 cube
+square1_2 square2_1 cube
+square1_2 square2_3 cube
+square1_3 square2_1 cube
+square1_3 square2_2 cube
+
+
+trig3 hig tut
+~
+dyad2
+trig1_1 trig1 trig1_2 trig1 trig1_3 trig1 hig_1 hig hig_2 hig square2_1a square2 square2_2a square2 square2_3a square2 square2_1b square2 square2_2b square2 square2_3b square2
+
+trig1_1 trig1_2 tet2
+trig1_1 trig1_3 tet2
+trig1_2 trig1_3 tet2
+
+
+
+square2_1a square2_2a trip2
+square2_1a square2_3a trip2
+square2_2a square2_3a trip2
+
+square2_1b square2_2b trip2
+square2_1b square2_3b trip2
+square2_2b square2_3b trip2
+
+
+
+square2_1a square2_1b trip3
+square2_2a square2_2b trip3
+square2_3a square2_3b trip3
+
+
+
+trig1_1 square2_2a trip4
+trig1_1 square2_2b trip4
+trig1_1 square2_3a trip4
+trig1_1 square2_3b trip4
+trig1_2 square2_1a trip4
+trig1_2 square2_1b trip4
+trig1_2 square2_3a trip4
+trig1_2 square2_3b trip4
+trig1_3 square2_1a trip4
+trig1_3 square2_1b trip4
+trig1_3 square2_2a trip4
+trig1_3 square2_2b trip4
+
+
+
+trig1_1 square2_1a co
+trig1_1 square2_1b co
+trig1_2 square2_2a co
+trig1_2 square2_2b co
+trig1_3 square2_3a co
+trig1_3 square2_3b co
+
+trig1_1 hig_1 co
+trig1_1 hig_2 co
+trig1_2 hig_1 co
+trig1_2 hig_2 co
+trig1_3 hig_1 co
+trig1_3 hig_2 co
+
+hig_1 square2_1a co
+hig_2 square2_1b co
+hig_1 square2_2a co
+hig_2 square2_2b co
+hig_1 square2_3a co
+hig_2 square2_3b co
+
+
+
+square2_1a square2_2b cube
+square2_1a square2_3b cube
+square2_2a square2_1b cube
+square2_2a square2_3b cube
+square2_3a square2_1b cube
+square2_3a square2_2b cube
+
+
+
+hig_2 square2_1a hip
+hig_1 square2_1b hip
+hig_2 square2_2a hip
+hig_1 square2_2b hip
+hig_2 square2_3a hip
+hig_1 square2_3b hip
+
+
+
+hig_1 hig_2 tut
+~
+square2
+trip4_1 trip4 trip4_2 trip4 trip2_1 trip2 trip2_2 trip2 cube_1 cube cube_2 cube hip hip trip3 trip3 co co
+
+trip4_1 trip4_2 tepe3
+
+
+
+trip4_1 co spid
+trip4_2 co spid
+co trip2_2 spid
+co trip2_1 spid
+trip4_1 trip2_2 spid
+trip4_2 trip2_1 spid
+
+
+
+trip4_1 trip2_1 triddip1
+trip4_2 trip2_2 triddip1
+
+
+
+trip4_1 hip cope
+trip4_2 hip cope
+hip cube_2 cope
+hip cube_1 cope
+trip4_1 cube_2 cope
+trip4_2 cube_1 cope
+
+
+
+trip4_1 cube_1 tisdip2
+trip4_2 cube_2 tisdip2
+
+
+
+trip4_1 trip3 triddip3
+trip4_2 trip3 triddip3
+
+
+
+co hip srip
+co trip3 srip
+hip trip3 srip
+
+
+
+co cube_1 cope
+co cube_2 cope
+
+
+
+trip2_1 trip2_2 tepe2
+
+
+
+trip2_1 hip thiddip
+trip2_2 hip thiddip
+
+
+
+trip2_1 cube_1 ope
+trip2_2 cube_2 ope
+trip2_1 trip3 ope
+trip2_2 trip3 ope
+cube_1 trip3 ope
+cube_2 trip3 ope
+
+
+
+trip2_1 cube_2 tisdip1
+trip2_2 cube_1 tisdip2
+
+
+
+cube_1 cube_2 tisdip1
+~
+trig1
+tet1_1 tet1 tet1_2 tet1 co_1 co co_2 co trip4_1a trip4 trip4_2a trip4 trip4_1b trip4 trip4_2b trip4
+
+
+
+tet1_1 tet1_2 pen1
+
+
+
+tet1_1 co_1 spid
+tet1_2 co_1 spid
+tet1_1 co_2 spid
+tet1_2 co_2 spid
+co_1 trip4_2b spid
+co_1 trip4_1a spid
+co_2 trip4_2a spid
+co_2 trip4_1b spid
+tet1_1 trip4_2b spid
+tet1_2 trip4_1a spid
+tet1_1 trip4_2a spid
+tet1_2 trip4_1b spid
+
+
+
+tet1_1 trip4_1a tepe3
+tet1_1 trip4_1b tepe3
+tet1_2 trip4_2a tepe3
+tet1_2 trip4_2b tepe3
+
+
+
+co_1 co_2 srip
+
+
+
+co_1 trip4_2a cope
+co_1 trip4_1b cope
+co_2 trip4_1a cope
+co_2 trip4_2b cope
+
+
+
+trip4_1a trip4_2a tisdip2
+trip4_1b trip4_2b tisdip2
+
+
+
+trip4_1a trip4_1b triddip3
+trip4_2a trip4_2b triddip3
+
+
+
+trip4_1a trip4_2b triddip1
+trip4_2a trip4_1b triddip1
+~
+trig2
+tet2_1 tet2 tet2_2 tet2 co co trip2_1 trip2 trip2_2 trip2 trip1_1 trip1 trip1_2 trip1 oct oct
+
+tet2_1 tet2_2 pen2
+
+
+
+tet2_1 co spid
+tet2_2 co spid
+co trip2_2 spid
+co trip2_1 spid
+tet2_1 trip2_2 spid
+tet2_2 trip2_1 spid
+
+
+
+tet2_1 trip2_1 tepe2
+tet2_2 trip2_2 tepe2
+
+
+
+tet2_1 trip1_1 rap
+tet2_2 trip1_2 rap
+trip1_1 oct rap
+trip1_2 oct rap
+tet2_1 oct rap
+tet2_2 oct rap
+
+
+
+tet2_1 trip1_2 tepe1
+tet2_2 trip1_1 tepe1
+
+
+
+co trip1_1 cope
+co trip1_2 cope
+
+
+
+co oct srip
+
+
+
+trip2_1 trip2_2 triddip1
+
+
+
+trip2_1 trip1_1 tisdip1
+trip2_2 trip1_2 tisdip1
+
+
+
+trip2_1 trip1_2 thiddip
+trip2_2 trip1_1 thiddip
+
+
+
+trip2_1 oct ope
+trip2_2 oct ope
+
+
+
+trip1_1 trip1_2 triddip2
+~
+trig3
+oct_1 oct oct_2 oct oct_3 oct tut tut trip3_1 trip3 trip3_2 trip3 trip3_3 trip3
+
+
+
+oct_1 oct_2 rap
+oct_1 oct_3 rap
+oct_2 oct_3 rap
+
+
+
+oct_1 trip3_2 ope
+oct_1 trip3_3 ope
+oct_2 trip3_1 ope
+oct_2 trip3_3 ope
+oct_3 trip3_1 ope
+oct_3 trip3_2 ope
+
+
+
+oct_1 tut srip
+oct_2 tut srip
+oct_3 tut srip
+tut trip3_1 srip
+tut trip3_2 srip
+tut trip3_3 srip
+oct_1 trip3_1 srip
+oct_2 trip3_2 srip
+oct_3 trip3_3 srip
+
+
+
+trip3_1 trip3_2 triddip3
+trip3_1 trip3_3 triddip3
+trip3_2 trip3_3 triddip3
+~
+hig
+co_1a co co_2a co co_3a co co_1b co co_2b co co_3b co tut tut hip_1 hip hip_2 hip hip_3 hip
+
+co_1a co_2a spid
+co_1a co_3a spid
+co_2a co_3a spid
+
+co_1b co_2b spid
+co_1b co_3b spid
+co_2b co_3b spid
+
+co_1a co_2b spid
+co_1a co_3b spid
+co_2a co_1b spid
+co_2a co_3b spid
+co_3a co_1b spid
+co_3a co_2b spid
+
+
+
+co_1a tut srip
+co_1a tut srip
+co_1a tut srip
+co_1a hip_1 srip
+co_2a hip_2 srip
+co_3a hip_3 srip
+co_1a co_1b srip
+co_2a co_2b srip
+co_3a co_3b srip
+tut hip_1 srip
+tut hip_2 srip
+tut hip_3 srip
+tut co_1b srip
+tut co_2b srip
+tut co_3b srip
+hip_1 co_1b srip
+hip_2 co_2b srip
+hip_3 co_3b srip
+
+
+
+co_1a hip_2 cope
+co_1a hip_3 cope
+co_2a hip_1 cope
+co_2a hip_3 cope
+co_3a hip_1 cope
+co_3a hip_2 cope
+
+co_1b hip_2 cope
+co_1b hip_3 cope
+co_2b hip_1 cope
+co_2b hip_3 cope
+co_3b hip_1 cope
+co_3b hip_2 cope
+
+
+
+hip_1 hip_2 thiddip
+hip_1 hip_3 thiddip
+hip_2 hip_3 thiddip
+~
+oct
+rap_1 rap rap_2 rap srip srip ope_1 ope ope_2 ope
+
+rap_1 rap_2 rix
+
+
+rap_1 ope_1 rappip
+rap_2 ope_2 rappip
+
+
+rap_1 srip spix
+rap_2 srip spix
+srip ope_2 spix
+srip ope_1 spix
+rap_1 ope_2 spix
+rap_2 ope_1 spix
+
+
+ope_1 ope_2 troct
+~
+tet1
+pen1 pen1 spid_1 spid spid_2 spid tepe3_1 tepe3 tepe3_2 tepe3
+
+pen1 spid_1 scad
+pen1 spid_2 scad
+spid_1 tepe3_1 scad
+spid_2 tepe3_2 scad
+pen1 tepe3_1 scad
+pen1 tepe3_2 scad
+
+
+spid_1 spid_2 spix
+
+
+spid_1 tepe3_2 spiddip
+spid_2 tepe3_1 spiddip
+
+
+tepe3_1 tepe3_2 tratet
+~
+tet2
+pen2 pen2 spid spid tepe1 tepe1 tepe2 tepe2 rap rap
+
+
+pen2 spid scad
+pen2 tepe2 scad
+spid tepe2 scad
+
+
+pen2 tepe1 rix
+pen2 rap rix
+tepe1 rap rix
+
+
+spid tepe1 spiddip
+
+
+spid rap spix
+
+
+tepe1 tepe2 hatet
+
+
+tepe2 rap rappip
+~
+co
+spid_1a spid spid_2a spid spid_1b spid spid_2b spid srip srip cope_1 cope cope_2 cope 
+
+spid_1a spid_2a scad
+spid_1a spid_1b scad
+spid_2a spid_2b scad
+spid_1b spid_2b scad
+
+
+spid_1a cope_1 spiddip
+spid_2a cope_2 spiddip
+
+spid_1b cope_2 spiddip
+spid_2b cope_1 spiddip
+
+
+spid_1a srip spix
+spid_2a srip spix
+spid_1a cope_2 spix
+spid_2a cope_1 spix
+spid_1a spid_2b spix
+spid_2a spid_1b spix
+srip cope_2 spix
+srip cope_1 spix
+srip spid_2b spix
+srip spid_1b spix
+cope_2 spid_2b spix
+cope_1 spid_1b spix
+
+
+cope_1 cope_2 traco
+~
+tut
+srip_1 srip srip_2 srip srip_3 srip srip_4 srip srip_5 srip srip_6 srip
+
+srip_1 srip_2 spix
+srip_1 srip_3 spix
+srip_1 srip_5 spix
+srip_1 srip_6 spix
+
+srip_2 srip_3 spix
+srip_2 srip_4 spix
+srip_2 srip_6 spix
+
+srip_3 srip_4 spix
+srip_3 srip_5 spix
+
+srip_4 srip_5 spix
+srip_4 srip_6 spix
+
+srip_5 srip_6 spix
+~
+trip1
+rap_1 rap rap_2 rap triddip2 triddip2 thiddip thiddip tepe1 tepe1 cope cope tisdip1 tisdip1
+
+rap_1 tisdip1 rappip
+rap_1 rap_2 rappip
+tisdip1 rap_2 rappip
+
+
+rap_1 thiddip spix
+rap_1 cope spix
+rap_1 rap_2 spix
+thiddip cope spix
+thiddip rap_2 spix
+cope rap_2 spix
+
+
+rap_1 triddip2 rix
+rap_1 tepe1 rix
+rap_1 rap_2 rix
+triddip2 tepe1 rix
+triddip2 rap_2 rix
+tepe1 rap_2 rix
+
+
+triddip2 thiddip traco
+triddip2 tisdip1 traco
+thiddip tisdip1 traco
+
+
+triddip2 cope traco
+
+
+thiddip tepe1 hatet
+
+
+tepe1 cope spiddip
+tepe1 tisdip1 spiddip
+cope tisdip1 spiddip
+~
+trip2
+tepe2 tepe2 spid spid tisdip1 tisdip1 thiddip thiddip triddip1 triddip1 ope ope
+
+
+tepe2 spid scad
+tepe2 triddip1 scad
+spid triddip1 scad
+
+
+tepe2 thiddip hatet
+
+
+tepe2 tisdip1 rappip
+tepe2 ope rappip
+tisdip1 ope rappip
+
+
+spid tisdip1 spiddip
+
+
+spid thiddip spix
+spid ope spix
+thiddip ope spix
+
+
+tisdip1 thiddip traco
+tisdip1 triddip1 traco
+thiddip triddip1 traco
+
+
+triddip1 ope troct
+~
+trip3
+ope_1 ope ope_2 ope srip srip triddip3_1 triddip3 triddip3_2 triddip3
+
+ope_1 ope_2 rappip
+
+
+ope_1 srip spix
+ope_2 srip spix
+ope_1 triddip3_2 spix
+ope_2 triddip3_1 spix
+srip triddip3_2 spix
+srip triddip3_1 spix
+
+
+ope_1 triddip3_1 troct
+ope_2 triddip3_2 troct
+
+
+triddip3_1 triddip3_2 tratet
+~
+trip4
+triddip1 triddip1 tisdip2 tisdip2 triddip3 triddip3 cope cope spid spid tepe3 tepe3
+
+
+triddip1 tisdip2 troct
+triddip1 triddip3 troct
+tisdip2 triddip3 troct
+
+
+triddip1 cope traco
+
+
+triddip1 spid scad
+triddip1 tepe3 scad
+spid tepe3 scad
+
+
+tisdip2 spid spiddip
+
+tisdip2 cope spiddip
+tisdip2 tepe3 spiddip
+cope tepe3 spiddip
+
+
+spid cope spix
+spid triddip3 spix
+cope triddip3 spix
+
+
+triddip3 tepe3 tratet
+~
+hip
+cope_1a cope cope_2a cope cope_1b cope cope_2b cope srip_1 srip srip_2 srip thiddip_1 thiddip thiddip_2 thiddip
+
+cope_1a cope_2a spix
+cope_1b cope_2b spix
+
+cope_1a srip_1 spix
+cope_2a srip_1 spix
+cope_1b srip_2 spix
+cope_2b srip_2 spix
+cope_1a thiddip_2 spix
+cope_2a thiddip_1 spix
+cope_1b thiddip_2 spix
+cope_2b thiddip_1 spix
+srip_1 thiddip_2 spix
+srip_1 thiddip_1 spix
+srip_2 thiddip_2 spix
+srip_2 thiddip_1 spix
+
+
+cope_1a thiddip_1 traco
+cope_2a thiddip_2 traco
+cope_1b thiddip_1 traco
+cope_2b thiddip_2 traco
+
+
+cope_1a cope_1b spiddip
+cope_2a cope_2b spiddip
+cope_1a cope_2b spiddip
+cope_2a cope_1b spiddip
+
+
+thiddip_1 thiddip_2 hatet
+~
+cube
+ope_1 ope ope_2 ope cope_1 cope cope_2 cope tisdip1_1 tisdip1 tisdip1_2 tisdip1 tisdip2 tisdip2
+
+ope_1 cope_1 spix
+ope_1 cope_2 spix
+ope_1 ope_2 spix
+cope_1 cope_2 spix
+cope_1 ope_2 spix
+cope_2 ope_2 spix
+
+ope_1 tisdip2 troct
+ope_1 ope_2 troct
+tisdip2 ope_2 troct
+
+
+ope_1 tisdip1_1 rappip
+ope_1 tisdip1_2 rappip
+ope_1 ope_2 rappip
+tisdip1_1 tisdip1_2 rappip
+tisdip1_1 ope_2 rappip
+tisdip1_2 ope_2 rappip
+
+
+cope_1 tisdip1_1 spiddip
+cope_2 tisdip1_2 spiddip
+cope_1 tisdip2 spiddip
+cope_2 tisdip2 spiddip
+tisdip1_1 tisdip2 spiddip
+tisdip1_2 tisdip2 spiddip
+
+cope_1 tisdip1_2 traco
+cope_2 tisdip1_1 traco
+~

@@ -1,0 +1,46 @@
+toe semiuniform
+
+b
+s
+l
+r
+n
+k
+t
+p
+
+rectLP l p
+
+squareSB s b
+
+squareKT k t
+
+
+
+ditLB l b
+tripodLK* l k
+tripodK*B k b
+
+ditLS l s
+tripodLT* l t
+tripodT*S t s
+
+ditSK s k
+tripodSP* s p
+tripodP*K p k
+
+ditBT t b
+tripodTP* t p
+tripodP*B p b
+~~~
+
+~~~
+rectLP rectLP
+squareSB squareSB
+squareKT squareKT
+
+ditLB ditLB tripodLK* tripodK*B
+ditLS ditLS tripodLT* tripodT*S
+ditSK ditSK tripodSP* tripodP*K
+ditBT ditBT tripodTP* tripodP*B 
+~~~

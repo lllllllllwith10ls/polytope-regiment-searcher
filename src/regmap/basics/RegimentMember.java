@@ -32,4 +32,26 @@ public class RegimentMember {
 		}
 		return false;
 	}
+	public boolean containsRegiment(Regiment regiment) {
+		if(getParent() == regiment) {
+			return true;
+		}
+		for(int i = 0; i < regiment.getRegimentMembers().length; i++) {
+			if(contains(regiment.getRegimentMembers()[i])) {
+				return true;
+			}
+		}
+		return false;
+	}
+	public RegimentMember containedRegimentMember(Regiment regiment) {
+		if(getParent() == regiment) {
+			return this;
+		}
+		for(int i = 0; i < regiment.getRegimentMembers().length; i++) {
+			if(contains(regiment.getRegimentMembers()[i])) {
+				return regiment.getRegimentMembers()[i];
+			}
+		}
+		return null;
+	}
 }

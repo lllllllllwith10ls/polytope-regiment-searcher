@@ -1,0 +1,126 @@
+scant
+
+dyad1a
+dyad2a
+
+dyad1b
+dyad2b
+dyad3b
+dyad4b
+
+trig1 dyad1a dyad2a
+trig2 dyad1a dyad2a
+
+square12 dyad1b dyad2b
+square13 dyad1b dyad3b
+square14 dyad1b dyad4b
+square23 dyad2b dyad3b
+square24 dyad2b dyad4b
+square34 dyad3b dyad4b
+
+square1l dyad1a dyad2a dyad1b
+square2l dyad1a dyad2a dyad2b
+square3l dyad1a dyad2a dyad3b
+square4l dyad1a dyad2a dyad4b
+
+oc1 dyad1a dyad2a dyad1b
+oc2 dyad1a dyad2a dyad2b
+oc3 dyad1a dyad2a dyad3b
+oc4 dyad1a dyad2a dyad4b
+
+tet trig1 trig2
+
+cube123 square12 square13 square23
+cube124 square12 square14 square24
+cube134 square13 square14 square34
+cube234 square23 square24 square34
+
+cube12l square12 square1l square2l
+cube23l square23 square2l square3l
+cube34l square34 square3l square4l
+cube14l square14 square1l square4l
+
+trip1 square1l trig1 trig2
+trip2 square2l trig1 trig2
+trip3 square3l trig1 trig2
+trip4 square4l trig1 trig2
+
+sirco123 trig1 trig2 square12 square13 square23 square1l square2l square3l
+socco123 trig1 trig2 square12 square13 square23 oc1 oc2 oc3 
+sroh123 square1l square2l square3l oc1 oc2 oc3
+op123_1 square12 square2l oc1
+op123_2 square23 square3l oc2
+op123_3 square13 square1l oc3
+
+
+sirco124 trig1 trig2 square12 square14 square24 square1l square2l square4l
+socco124 trig1 trig2 square12 square14 square24 oc1 oc2 oc4 
+sroh124 square1l square2l square4l oc1 oc2 oc4
+op124_1 square12 square2l oc1
+op124_2 square24 square4l oc2
+op124_4 square14 square1l oc4
+
+sirco134 trig1 trig2 square13 square14 square34 square1l square3l square4l
+socco134 trig1 trig2 square13 square14 square34 oc1 oc3 oc4 
+sroh134 square1l square3l square4l oc1 oc3 oc4
+op134_1 square13 square3l oc1
+op134_3 square34 square4l oc3
+op134_4 square14 square1l oc4
+
+sirco234 trig1 trig2 square23 square24 square34 square2l square3l square4l
+socco234 trig1 trig2 square23 square24 square34 oc2 oc3 oc4 
+sroh234 square2l square3l square4l oc2 oc3 oc4
+op234_1 square23 square3l oc2
+op234_3 square34 square4l oc3
+op234_4 square24 square2l oc4
+
+
+
+pen tet
+
+tepe tet trip1 trip2 trip3 trip4
+
+tisdip1 trip1 cube12l
+tisdip2 trip2 cube23l
+tisdip3 trip3 cube34l
+tisdip4 trip4 cube14l
+
+tes cube123 cube124 cube134 cube234
+
+tes123l cube123 cube12l
+tes124l cube124 cube14l
+tes134l cube134 cube34l
+tes234l cube234 cube23l
+
+sidpith cube123 cube124 cube134 cube234 tet cube12l cube14l cube23l cube34l trip1 trip2 trip3 trip4
+stefacoth tet cube12l cube14l cube23l cube34l sirco123 sirco124 sirco134 sirco234 sirco123 sirco124 sirco134 sirco234
+shafipto cube123 cube124 cube134 trip1 trip2 trip3 trip4 cube234 sirco123 sirco124 sirco134 sirco234 sirco123 sirco124 sirco134 sirco234
+steth cube123 cube124 cube134 cube234 tet socco123 socco124 socco134 socco234 socco123 socco124 socco134 socco234
+dippit cube12l cube14l cube23l cube34l trip1 trip2 trip3 trip4 socco123 socco124 socco134 socco234 socco123 socco124 socco134 socco234
+snappoth tet trip1 trip2 trip3 trip4 sroh123 sroh124 sroh134 sroh234 sroh123 sroh124 sroh134 sroh234
+snipto cube123 cube124 cube134 cube234 cube12l cube14l cube23l cube34l sroh123 sroh124 sroh134 sroh234 sroh123 sroh124 sroh134 sroh234
+~~~
+sirco123 sirco123 socco123 sroh123 op123_1 op123_2 op123_3
+sirco124 sirco124 socco124 sroh124 op124_1 op124_2 op124_4
+sirco134 sirco134 socco134 sroh134 op134_1 op134_3 op134_4
+sirco234 sirco234 socco234 sroh234 op234_1 op234_3 op234_4
+~~~
+pen pen
+
+tepe tepe
+
+tisdip1 tisdip1
+tisdip2 tisdip2
+tisdip3 tisdip3
+tisdip4 tisdip4
+
+
+tes tes
+
+tes123l tes123l
+tes124l tes124l
+tes134l tes134l
+tes234l tes234l
+
+sidpith sidpith stefacoth shafipto steth dippit snappoth snipto
+~~~

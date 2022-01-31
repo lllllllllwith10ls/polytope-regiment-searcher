@@ -1,47 +1,98 @@
-ril
+sishiap
 
-dyad
+240sidtid
+240gidtid
+240ditdid
+240ike
+240gad
+240gike
+240sissid
 
-trig1 dyad 
-trig2 dyad 
-square dyad 
+1200tet
+4800tet
+1200oct
+4800oct
 
+2400atrip
+2400btrip
+2400ctrip
+4800trip
 
-tet trig1
-oct trig1 trig2
-trip trig1 square
+1440stip
 
+1440apip
+1440bpip
 
-pen tet
+720stap
 
-rap tet oct
-firp tet trip
-pinnip trip oct
+1440pap
 
-tepe tet trip
+sishi 240sissid
+gaghi 240gad
 
-triddip trip
+sidtixhi 240gike 1200tet
+dittady 240gike 240ike
+gidtixhi 240ike 1200tet
 
+idhi 240ditdid
+paphicki 1440stip
+paphacki 1440apip
 
+ofiddady 240sidtid 240ike
+gridixhi 240sidtid 1200tet
+didhi 240gidtid 240gike
+gridixhi 240sidtid 1200tet
+sridaphi 240gike 2400atrip
+gridaphi 240ike 2400atrip
+dophi 240gidtid 2400atrip
+radophi 240sidtid 2400atrip
 
-hix pen
+sitpodady(F) 240sidtid 240gike
+gitpodady(F) 240gidtid 240ike
 
-rix rap rap pen
-cabnix rap rap tepe triddip
-firx pen tepe triddip 
-cax firp firp tepe
-baddix firp firp pen triddip
-cindax pinnip pinnip pen tepe
-nobax pinnip pinnip triddip
+dox 1200oct
 
-penp pen tepe
+sidtidap 240sidtid 4800tet 720stap 720stap
+gidtidap 240gidtid 4800tet 1440pap
+ditdidap 240ditdid 720stap 720stap 1440pap
 
-tratet tepe triddip triddip
+rap 1200oct 4800oct 1200tet 4800tet
+firp 2400atrip 2400btrip 2400ctrip 4800trip 1200tet 4800tet
+pinnip 2400atrip 2400btrip 2400ctrip 4800trip 1200oct 4800oct
+
+triddip 2400atrip 2400btrip 2400btrip 2400ctrip 4800trip
+
+480trapedip 1440bpip 2400ctrip
+960trapedip 1440apip 1440bpip 4800trip
+
+tepe 4800tet 2400atrip 2400ctrip 4800trip
+
+ipe 240ike 2400btrip
+gaddip 240gad 1440bpip
+
+stappip 720stap 720stap 1440stip 2400ctrip 4800trip
+pappip 1440pap 1440apip 2400ctrip 4800trip
+
+pen 4800tet
 ~~~
+~~~
+sishi sishi gaghi sidtixhi dittady gidtixhi idhi paphicki paphacki ofiddady gridixhi didhi gridixhi sridaphi gridaphi dophi radophi sitpodady(F) gitpodady(F) dox
+
+sidtidap sidtidap gidtidap ditdidap
+
 rap rap firp pinnip
-~~~
-rix rix cabnix firx cax baddix cindax nobax
 
-hix hix
-penp penp
-tratet tratet
+triddip triddip
+
+480trapedip 480trapedip
+960trapedip 960trapedip
+
+tepe tepe
+
+ipe ipe gaddip
+
+stappip stappip
+pappip pappip
+
+pen pen
+~~~

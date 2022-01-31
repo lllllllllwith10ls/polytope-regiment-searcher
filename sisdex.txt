@@ -1,0 +1,321 @@
+sisdex
+
+vertex
+
+dyad0 vertex
+dyad1 vertex
+dyad2 vertex
+dyad3 vertex
+dyad4 vertex
+dyad5 vertex
+dyad6 vertex
+dyad7 vertex
+dyad8 vertex
+dyad9 vertex
+
+star0 dyad0 dyad3 dyad6 dyad7 dyad8
+star1 dyad0 dyad2 dyad4 dyad8 dyad9
+star2 dyad1 dyad3 dyad5 dyad8 dyad9
+star3 dyad1 dyad2 dyad6 dyad7 dyad9
+star4 dyad0 dyad1 dyad4 dyad5 dyad6
+star5 dyad2 dyad3 dyad4 dyad5 dyad7
+
+peg0 dyad2 dyad3 dyad7 dyad8 dyad9
+peg1 dyad0 dyad3 dyad4 dyad5 dyad8
+peg2 dyad1 dyad2 dyad4 dyad5 dyad9
+peg3 dyad0 dyad1 dyad6 dyad8 dyad9
+peg4 dyad0 dyad2 dyad4 dyad6 dyad7
+peg5 dyad1 dyad3 dyad5 dyad6 dyad7
+
+
+trig0 dyad3 dyad4 dyad9
+trig1 dyad4 dyad6 dyad9
+trig2 dyad3 dyad6 dyad9
+trig3 dyad3 dyad4 dyad6
+
+trig4 dyad1 dyad4 dyad8
+trig5 dyad1 dyad7 dyad8
+trig6 dyad1 dyad4 dyad7
+trig7 dyad4 dyad7 dyad8
+
+trig8 dyad0 dyad1 dyad3
+trig9 dyad0 dyad2 dyad3
+trig10 dyad1 dyad2 dyad3
+trig11 dyad0 dyad1 dyad2
+
+trig12 dyad2 dyad5 dyad6
+trig13 dyad2 dyad6 dyad8
+trig14 dyad2 dyad5 dyad8
+trig15 dyad5 dyad6 dyad8
+
+trig16 dyad5 dyad7 dyad9
+trig17 dyad0 dyad5 dyad9
+trig18 dyad0 dyad7 dyad9
+trig19 dyad0 dyad5 dyad7
+
+square0 dyad3 dyad4 dyad6 dyad9
+square1 dyad3 dyad4 dyad6 dyad9
+square2 dyad3 dyad4 dyad6 dyad9
+
+square3 dyad1 dyad4 dyad7 dyad8
+square4 dyad1 dyad4 dyad7 dyad8
+square5 dyad1 dyad4 dyad7 dyad8
+
+square6 dyad0 dyad1 dyad2 dyad3
+square7 dyad0 dyad1 dyad2 dyad3
+square8 dyad0 dyad1 dyad2 dyad3
+
+square9 dyad2 dyad5 dyad6 dyad8
+square10 dyad2 dyad5 dyad6 dyad8
+square11 dyad2 dyad5 dyad6 dyad8
+
+square12 dyad0 dyad5 dyad7 dyad9
+square13 dyad0 dyad5 dyad7 dyad9
+square14 dyad0 dyad5 dyad7 dyad9
+
+
+sissid star0 star1 star2 star3 star4 star5 star0 star1 star2 star3 star4 star5
+gike trig0 trig1 trig2 trig3 trig4 trig5 trig6 trig7 trig8 trig9 trig10 trig11 trig12 trig13 trig14 trig15 trig16 trig17 trig18 trig19
+starp0 star0 star0 trig8 trig9 trig2 trig3 trig13 trig15 trig5 trig7 trig18 trig19
+starp1 star1 star1 trig9 trig11 trig13 trig14 trig0 trig1 trig4 trig7 trig17 trig18
+starp2 star2 star2 trig8 trig10 trig0 trig2 trig16 trig17 trig4 trig5 trig14 trig15
+starp3 star3 star3 trig10 trig11 trig12 trig13 trig1 trig2 trig16 trig18 trig5 trig6
+starp4 star4 star4 trig8 trig11 trig4 trig6 trig1 trig3 trig17 trig19 trig12 trig15
+starp5 star5 star5 trig9 trig10 trig0 trig3 trig6 trig7 trig16 trig19 trig12 trig14
+
+
+gad peg0 peg1 peg2 peg3 peg4 peg5 peg0 peg1 peg2 peg3 peg4 peg5
+ike trig0 trig1 trig2 trig3 trig4 trig5 trig6 trig7 trig8 trig9 trig10 trig11 trig12 trig13 trig14 trig15 trig16 trig17 trig18 trig19
+pap0 peg0 peg0 trig9 trig10 trig0 trig2 trig16 trig18 trig5 trig7 trig13 trig14
+pap1 peg1 peg1 trig8 trig9 trig0 trig3 trig4 trig7 trig14 trig15 trig17 trig19
+pap2 peg2 peg2 trig10 trig11 trig12 trig14 trig16 trig17 trig0 trig1 trig4 trig6
+pap3 peg3 peg3 trig8 trig11 trig4 trig5 trig13 trig15 trig1 trig2 trig17 trig18
+pap4 peg4 peg4 trig9 trig11 trig12 trig13 trig1 trig3 trig6 trig7 trig18 trig19
+pap5 peg5 peg5 trig8 trig10 trig2 trig3 trig12 trig15 trig16 trig19 trig5 trig6
+
+stip0 star0 star0 square7 square9 square14 square0 square2
+stip1 star1 star1 square8 square3 square12 square11 square2
+stip2 star2 star2 square10 square1 square5 square14 square8
+stip3 star3 star3 square7 square13 square10 square3 square4
+stip4 star4 star4 square11 square4 square13 square1 square6
+stip5 star5 star5 square0 square12 square6 square5 square9
+
+pip0 peg0 peg0 square1 square4 square6 square13 square11
+pip1 peg1 peg1 square7 square10 square0 square13 square3
+pip2 peg2 peg2 square7 square14 square4 square9 square2
+pip3 peg3 peg3 square9 square6 square0 square5 square12
+pip4 peg4 peg4 square8 square1 square14 square10 square5
+pip5 peg5 peg5 square2 square12 square8 square11 square3
+
+sidtid star0 star1 star2 star3 star4 star5 star0 star1 star2 star3 star4 star5 trig0 trig1 trig2 trig3 trig4 trig5 trig6 trig7 trig8 trig9 trig10 trig11 trig12 trig13 trig14 trig15 trig16 trig17 trig18 trig19
+gidtid peg0 peg1 peg2 peg3 peg4 peg5 peg0 peg1 peg2 peg3 peg4 peg5 trig0 trig1 trig2 trig3 trig4 trig5 trig6 trig7 trig8 trig9 trig10 trig11 trig12 trig13 trig14 trig15 trig16 trig17 trig18 trig19
+ditdid peg0 peg1 peg2 peg3 peg4 peg5 peg0 peg1 peg2 peg3 peg4 peg5 star0 star1 star2 star3 star4 star5 star0 star1 star2 star3 star4 star5
+rhom square0 square1 square2 square3 square4 square5 square6 square7 square8 square9 square10 square11 square12 square13 square14 square0 square1 square2 square3 square4 square5 square6 square7 square8 square9 square10 square11 square12 square13 square14
+
+tet0 trig16 trig7 trig1 trig15
+tet1 trig10 trig13 trig4 trig3
+tet2 trig12 trig17 trig2 trig9
+tet3 trig8 trig0 trig6 trig18
+tet4 trig11 trig19 trig14 trig5
+
+oct0 trig0 trig1 trig2 trig3 trig0 trig1 trig2 trig3
+thah0a trig0 trig1 trig2 trig3 square0 square1 square2
+thah0b trig0 trig1 trig2 trig3 square0 square1 square2
+
+oct1 trig4 trig5 trig6 trig7 trig4 trig5 trig6 trig7
+thah1a trig4 trig5 trig6 trig7 square3 square4 square5
+thah1b trig4 trig5 trig6 trig7 square3 square4 square5
+
+oct2 trig8 trig9 trig10 trig11 trig8 trig9 trig10 trig11
+thah2a trig8 trig9 trig10 trig11 square6 square7 square8
+thah2b trig8 trig9 trig10 trig11 square6 square7 square8
+
+oct3 trig12 trig13 trig14 trig15 trig12 trig13 trig14 trig15
+thah3a trig12 trig13 trig14 trig15 square9 square10 square11
+thah3b trig12 trig13 trig14 trig15 square9 square10 square11
+
+oct4 trig16 trig17 trig18 trig19 trig16 trig17 trig18 trig19
+thah4a trig16 trig17 trig18 trig19 square12 square13 square14
+thah4b trig16 trig17 trig18 trig19 square12 square13 square14
+
+co0 trig0 trig1 trig2 trig3 square0 square1 square2
+co1 trig4 trig5 trig6 trig7 square3 square4 square5
+co2 trig8 trig9 trig10 trig11 square6 square7 square8
+co3 trig12 trig13 trig14 trig15 square9 square10 square11
+co4 trig16 trig17 trig18 trig19 square12 square13 square14
+
+did peg0 peg1 peg2 peg3 peg4 peg5 star0 star1 star2 star3 star4 star5
+
+trip0 trig0 trig14 square6 square3 square14 
+trip1 trig1 trig11 square4 square12 square10
+trip2 trig2 trig5 square9 square13 square8
+trip3 trig3 trig19 square7 square11 square5
+trip4 trig4 trig17 square2 square10 square6
+trip5 trig7 trig9 square0 square14 square11
+trip6 trig8 trig15 square13 square5 square2
+trip7 trig10 trig16 square9 square1 square3
+trip8 trig12 trig6 square7 square1 square12
+trip9 trig13 trig18 square0 square8 square4
+
+
+trigconnect trig8
+2trigconnect trig8 trig9
+2btrigconnect trig8 trig10
+3trigconnect trig8 trig9 trig10
+4trigconnect trig8 trig9 trig10 trig11
+
+trigsquareconnect trig8 square6
+2trigsquareconnect trig8 trig9 square6
+2btrigsquareconnect trig8 trig10 square6
+3trigsquareconnect trig8 trig9 trig10 square6
+4trigsquareconnect trig8 trig9 trig10 trig11 square6
+
+trig2squareconnect trig8 square6 square7
+2trig2squareconnect trig8 trig9 square6 square7
+2btrig2squareconnect trig8 trig10 square6 square7
+3trig2squareconnect trig8 trig9 trig10 square6 square7
+4trig2squareconnect trig8 trig9 trig10 trig11 square6 square7
+
+trig3squareconnect trig8 square6 square7 square8
+2trig3squareconnect trig8 trig9 square6 square7 square8
+2btrig3squareconnect trig8 trig10 square6 square7 square8
+3trig23quareconnect trig8 trig9 trig10 square6 square7 square8
+4trig23quareconnect trig8 trig9 trig10 trig11 square6 square7 square8
+
+
+
+~~~
+vertex vertex
+
+dyad0 dyad0
+dyad1 dyad1
+dyad2 dyad2
+dyad3 dyad3
+dyad4 dyad4
+dyad5 dyad5
+dyad6 dyad6
+dyad7 dyad7
+dyad8 dyad8
+dyad9 dyad9
+
+star0 star0
+star1 star1
+star2 star2
+star3 star3
+star4 star4
+star5 star5
+
+peg0 peg0
+peg1 peg1
+peg2 peg2
+peg3 peg3
+peg4 peg4
+peg5 peg5
+
+
+trig0 trig0
+trig1 trig1
+trig2 trig2
+trig3 trig3
+
+trig4 trig4
+trig5 trig5
+trig6 trig6
+trig7 trig7
+
+trig8 trig8
+trig9 trig9
+trig10 trig10
+trig11 trig11
+
+trig12 trig12
+trig13 trig13
+trig14 trig14
+trig15 trig15
+
+trig16 trig16
+trig17 trig17
+trig18 trig18
+trig19 trig19
+
+square0 square0
+square1 square1
+square2 square2
+
+square3 square3
+square4 square4
+square5 square5
+
+square6 square6
+square7 square7
+square8 square8
+
+square9 square9
+square10 square10
+square11 square11
+
+square12 square12
+square13 square13
+square14 square14
+~~~
+
+
+
+sissid gike starp0 starp1 starp2 starp3 starp4 starp5 
+
+ike ike pap0 pap1 pap2 pap3 pap4 pap5 
+
+
+sidtid sidtid gidtid
+
+
+oct0 thah0a thah0b
+
+oct1 thah1a thah1b
+
+oct2 thah2a thah2b 
+
+oct3 thah3a thah3b 
+
+oct4 thah4a thah4b
+
+stip0 stip0
+stip1 stip1 
+stip2 stip2 
+stip3 stip3
+stip4 stip4
+stip5 stip5
+
+pip0 pip0
+pip1 pip1 
+pip2 pip2 
+pip3 pip3
+pip4 pip4
+pip5 pip5
+
+tet0 tet0 
+tet1 tet1 
+tet2 tet2 
+tet3 tet3 
+tet4 tet4
+
+co0 co0 
+co1 co1 
+co2 co2 
+co3 co3 
+co4 co4 
+
+trip0 trip0
+trip1 trip1
+trip2 trip2
+trip3 trip3
+trip4 trip4
+trip5 trip5
+trip6 trip6
+trip7 trip7
+trip8 trip8
+trip9 trip9
+
+connect- trigconnect 2trigconnect 2btrigconnect 3trigconnect 4trigconnect trigsquareconnect 2trigsquareconnect 2btrigsquareconnect 3trigsquareconnect 4trigsquareconnect trig2squareconnect 2trig2squareconnect 2btrig2squareconnect 3trig2squareconnect 4trig2squareconnect trig3squareconnect 2trig3squareconnect 2btrig3squareconnect 3trig23quareconnect 4trig23quareconnect
+
+~~~

@@ -1,0 +1,532 @@
+sishi
+
+vertex
+
+dyad0 vertex
+dyad1 vertex
+dyad2 vertex
+dyad3 vertex
+dyad4 vertex
+dyad5 vertex
+dyad6 vertex
+dyad7 vertex
+dyad8 vertex
+dyad9 vertex
+
+star0 dyad0 dyad3 dyad6 dyad7 dyad8
+star1 dyad0 dyad2 dyad4 dyad8 dyad9
+star2 dyad1 dyad3 dyad5 dyad8 dyad9
+star3 dyad1 dyad2 dyad6 dyad7 dyad9
+star4 dyad0 dyad1 dyad4 dyad5 dyad6
+star5 dyad2 dyad3 dyad4 dyad5 dyad7
+
+peg0 dyad2 dyad3 dyad7 dyad8 dyad9
+peg1 dyad0 dyad3 dyad4 dyad5 dyad8
+peg2 dyad1 dyad2 dyad4 dyad5 dyad9
+peg3 dyad0 dyad1 dyad6 dyad8 dyad9
+peg4 dyad0 dyad2 dyad4 dyad6 dyad7
+peg5 dyad1 dyad3 dyad5 dyad6 dyad7
+
+
+trig0 dyad3 dyad4 dyad9
+trig1 dyad4 dyad6 dyad9
+trig2 dyad3 dyad6 dyad9
+trig3 dyad3 dyad4 dyad6
+
+trig4 dyad1 dyad4 dyad8
+trig5 dyad1 dyad7 dyad8
+trig6 dyad1 dyad4 dyad7
+trig7 dyad4 dyad7 dyad8
+
+trig8 dyad0 dyad1 dyad3
+trig9 dyad0 dyad2 dyad3
+trig10 dyad1 dyad2 dyad3
+trig11 dyad0 dyad1 dyad2
+
+trig12 dyad2 dyad5 dyad6
+trig13 dyad2 dyad6 dyad8
+trig14 dyad2 dyad5 dyad8
+trig15 dyad5 dyad6 dyad8
+
+trig16 dyad5 dyad7 dyad9
+trig17 dyad0 dyad5 dyad9
+trig18 dyad0 dyad7 dyad9
+trig19 dyad0 dyad5 dyad7
+
+square0 dyad3 dyad4 dyad6 dyad9
+square1 dyad3 dyad4 dyad6 dyad9
+square2 dyad3 dyad4 dyad6 dyad9
+
+square3 dyad1 dyad4 dyad7 dyad8
+square4 dyad1 dyad4 dyad7 dyad8
+square5 dyad1 dyad4 dyad7 dyad8
+
+square6 dyad0 dyad1 dyad2 dyad3
+square7 dyad0 dyad1 dyad2 dyad3
+square8 dyad0 dyad1 dyad2 dyad3
+
+square9 dyad2 dyad5 dyad6 dyad8
+square10 dyad2 dyad5 dyad6 dyad8
+square11 dyad2 dyad5 dyad6 dyad8
+
+square12 dyad0 dyad5 dyad7 dyad9
+square13 dyad0 dyad5 dyad7 dyad9
+square14 dyad0 dyad5 dyad7 dyad9
+
+
+sissid star0 star1 star2 star3 star4 star5 star0 star1 star2 star3 star4 star5
+gike trig0 trig1 trig2 trig3 trig4 trig5 trig6 trig7 trig8 trig9 trig10 trig11 trig12 trig13 trig14 trig15 trig16 trig17 trig18 trig19
+starp0 star0 star0 trig8 trig9 trig2 trig3 trig13 trig15 trig5 trig7 trig18 trig19
+starp1 star1 star1 trig9 trig11 trig13 trig14 trig0 trig1 trig4 trig7 trig17 trig18
+starp2 star2 star2 trig8 trig10 trig0 trig2 trig16 trig17 trig4 trig5 trig14 trig15
+starp3 star3 star3 trig10 trig11 trig12 trig13 trig1 trig2 trig16 trig18 trig5 trig6
+starp4 star4 star4 trig8 trig11 trig4 trig6 trig1 trig3 trig17 trig19 trig12 trig15
+starp5 star5 star5 trig9 trig10 trig0 trig3 trig6 trig7 trig16 trig19 trig12 trig14
+
+
+gad peg0 peg1 peg2 peg3 peg4 peg5 peg0 peg1 peg2 peg3 peg4 peg5
+ike trig0 trig1 trig2 trig3 trig4 trig5 trig6 trig7 trig8 trig9 trig10 trig11 trig12 trig13 trig14 trig15 trig16 trig17 trig18 trig19
+pap0 peg0 peg0 trig9 trig10 trig0 trig2 trig16 trig18 trig5 trig7 trig13 trig14
+pap1 peg1 peg1 trig8 trig9 trig0 trig3 trig4 trig7 trig14 trig15 trig17 trig19
+pap2 peg2 peg2 trig10 trig11 trig12 trig14 trig16 trig17 trig0 trig1 trig4 trig6
+pap3 peg3 peg3 trig8 trig11 trig4 trig5 trig13 trig15 trig1 trig2 trig17 trig18
+pap4 peg4 peg4 trig9 trig11 trig12 trig13 trig1 trig3 trig6 trig7 trig18 trig19
+pap5 peg5 peg5 trig8 trig10 trig2 trig3 trig12 trig15 trig16 trig19 trig5 trig6
+
+stip0 star0 star0 square7 square9 square14 square0 square2
+stip1 star1 star1 square8 square3 square12 square11 square2
+stip2 star2 star2 square10 square1 square5 square14 square8
+stip3 star3 star3 square7 square13 square10 square3 square4
+stip4 star4 star4 square11 square4 square13 square1 square6
+stip5 star5 star5 square0 square12 square6 square5 square9
+
+pip0 peg0 peg0 square1 square4 square6 square13 square11
+pip1 peg1 peg1 square7 square10 square0 square13 square3
+pip2 peg2 peg2 square7 square14 square4 square9 square2
+pip3 peg3 peg3 square9 square6 square0 square5 square12
+pip4 peg4 peg4 square8 square1 square14 square10 square5
+pip5 peg5 peg5 square2 square12 square8 square11 square3
+
+sidtid star0 star1 star2 star3 star4 star5 star0 star1 star2 star3 star4 star5 trig0 trig1 trig2 trig3 trig4 trig5 trig6 trig7 trig8 trig9 trig10 trig11 trig12 trig13 trig14 trig15 trig16 trig17 trig18 trig19
+gidtid peg0 peg1 peg2 peg3 peg4 peg5 peg0 peg1 peg2 peg3 peg4 peg5 trig0 trig1 trig2 trig3 trig4 trig5 trig6 trig7 trig8 trig9 trig10 trig11 trig12 trig13 trig14 trig15 trig16 trig17 trig18 trig19
+ditdid peg0 peg1 peg2 peg3 peg4 peg5 peg0 peg1 peg2 peg3 peg4 peg5 star0 star1 star2 star3 star4 star5 star0 star1 star2 star3 star4 star5
+rhom square0 square1 square2 square3 square4 square5 square6 square7 square8 square9 square10 square11 square12 square13 square14 square0 square1 square2 square3 square4 square5 square6 square7 square8 square9 square10 square11 square12 square13 square14
+
+tet0 trig16 trig7 trig1 trig15
+tet1 trig10 trig13 trig4 trig3
+tet2 trig12 trig17 trig2 trig9
+tet3 trig8 trig0 trig6 trig18
+tet4 trig11 trig19 trig14 trig5
+
+oct0 trig0 trig1 trig2 trig3 trig0 trig1 trig2 trig3
+thah0a trig0 trig1 trig2 trig3 square0 square1 square2
+thah0b trig0 trig1 trig2 trig3 square0 square1 square2
+
+oct1 trig4 trig5 trig6 trig7 trig4 trig5 trig6 trig7
+thah1a trig4 trig5 trig6 trig7 square3 square4 square5
+thah1b trig4 trig5 trig6 trig7 square3 square4 square5
+
+oct2 trig8 trig9 trig10 trig11 trig8 trig9 trig10 trig11
+thah2a trig8 trig9 trig10 trig11 square6 square7 square8
+thah2b trig8 trig9 trig10 trig11 square6 square7 square8
+
+oct3 trig12 trig13 trig14 trig15 trig12 trig13 trig14 trig15
+thah3a trig12 trig13 trig14 trig15 square9 square10 square11
+thah3b trig12 trig13 trig14 trig15 square9 square10 square11
+
+oct4 trig16 trig17 trig18 trig19 trig16 trig17 trig18 trig19
+thah4a trig16 trig17 trig18 trig19 square12 square13 square14
+thah4b trig16 trig17 trig18 trig19 square12 square13 square14
+
+co0 trig0 trig1 trig2 trig3 square0 square1 square2
+co1 trig4 trig5 trig6 trig7 square3 square4 square5
+co2 trig8 trig9 trig10 trig11 square6 square7 square8
+co3 trig12 trig13 trig14 trig15 square9 square10 square11
+co4 trig16 trig17 trig18 trig19 square12 square13 square14
+
+did peg0 peg1 peg2 peg3 peg4 peg5 star0 star1 star2 star3 star4 star5
+
+trip0 trig0 trig14 square6 square3 square14 
+trip1 trig1 trig11 square4 square12 square10
+trip2 trig2 trig5 square9 square13 square8
+trip3 trig3 trig19 square7 square11 square5
+trip4 trig4 trig17 square2 square10 square6
+trip5 trig7 trig9 square0 square14 square11
+trip6 trig8 trig15 square13 square5 square2
+trip7 trig10 trig16 square9 square1 square3
+trip8 trig12 trig6 square7 square1 square12
+trip9 trig13 trig18 square0 square8 square4
+
+
+~~~
+vertex vertex
+
+dyad0 dyad0
+dyad1 dyad1
+dyad2 dyad2
+dyad3 dyad3
+dyad4 dyad4
+dyad5 dyad5
+dyad6 dyad6
+dyad7 dyad7
+dyad8 dyad8
+dyad9 dyad9
+
+star0 star0
+star1 star1
+star2 star2
+star3 star3
+star4 star4
+star5 star5
+
+peg0 peg0
+peg1 peg1
+peg2 peg2
+peg3 peg3
+peg4 peg4
+peg5 peg5
+
+
+trig0 trig0
+trig1 trig1
+trig2 trig2
+trig3 trig3
+
+trig4 trig4
+trig5 trig5
+trig6 trig6
+trig7 trig7
+
+trig8 trig8
+trig9 trig9
+trig10 trig10
+trig11 trig11
+
+trig12 trig12
+trig13 trig13
+trig14 trig14
+trig15 trig15
+
+trig16 trig16
+trig17 trig17
+trig18 trig18
+trig19 trig19
+
+square0 square0
+square1 square1
+square2 square2
+
+square3 square3
+square4 square4
+square5 square5
+
+square6 square6
+square7 square7
+square8 square8
+
+square9 square9
+square10 square10
+square11 square11
+
+square12 square12
+square13 square13
+square14 square14
+~~~
+
+sissid sissid gike starp0 starp1 starp2 starp3 starp4 starp5 
+
+ike gad ike pap0 pap1 pap2 pap3 pap4 pap5 
+
+
+sidtid sidtid gidtid ditdid rhom
+
+
+oct0 oct0 thah0a thah0b
+
+oct1 oct1 thah1a thah1b
+
+oct2 oct2 thah2a thah2b 
+
+oct3 oct3 thah3a thah3b 
+
+oct4 oct4 thah4a thah4b
+
+stip0 stip0
+stip1 stip1 
+stip2 stip2 
+stip3 stip3
+stip4 stip4
+stip5 stip5
+
+pip0 pip0
+pip1 pip1 
+pip2 pip2 
+pip3 pip3
+pip4 pip4
+pip5 pip5
+
+tet0 tet0 
+tet1 tet1 
+tet2 tet2 
+tet3 tet3 
+tet4 tet4
+
+co0 co0 
+co1 co1 
+co2 co2 
+co3 co3 
+co4 co4 
+
+did did 
+trip0 trip0
+trip1 trip1
+trip2 trip2
+trip3 trip3
+trip4 trip4
+trip5 trip5
+trip6 trip6
+trip7 trip7
+trip8 trip8
+trip9 trip9
+~~~
+vertex
+dyad0a dyad0 dyad0b dyad0 dyad1a dyad1 dyad1b dyad1 dyad2a dyad2 dyad2b dyad2 dyad3a dyad3 dyad3b dyad3 dyad4a dyad4 dyad4b dyad4 dyad5a dyad5 dyad5b dyad5 dyad6a dyad6 dyad6b dyad6 dyad7a dyad7 dyad7b dyad7 dyad8a dyad8 dyad8b dyad8 dyad9a dyad9 dyad9b dyad9
+
+dyad0a dyad6a star0
+dyad3b dyad7b star0
+dyad0b dyad8b star0
+dyad6b dyad7a star0
+dyad3a dyad8a star0
+
+dyad0a dyad8a star1
+dyad2a dyad4a star1
+dyad9b dyad8b star1
+dyad0b dyad4b star1
+dyad2b dyad9a star1
+
+dyad8a dyad9a star2
+dyad3a dyad5a star2
+dyad1b dyad9b star2
+dyad3b dyad8b star2
+dyad1a dyad5b star2
+
+dyad1a dyad9a star3
+dyad2b dyad7a star3
+dyad1b dyad6b star3
+dyad2a dyad9b star3
+dyad6a dyad7b star3
+
+dyad1a dyad6a star4
+dyad5b dyad4b star4
+dyad0b dyad6b star4
+dyad1b dyad5a star4
+dyad4a dyad0a star4
+
+dyad3a dyad7a star5
+dyad2b dyad4b star5
+dyad3b dyad5b star5
+dyad2a dyad7b star5
+dyad4a dyad5a star5
+
+
+dyad3b dyad7a peg0
+dyad3a dyad8b peg0
+dyad8a dyad9b peg0
+dyad2a dyad9a peg0
+dyad2b dyad7b peg0
+
+dyad3a dyad5b peg1
+dyad3b dyad8a peg1
+dyad0a dyad8b peg1
+dyad0b dyad4a peg1
+dyad5a dyad4b peg1
+
+dyad1a dyad5a peg2
+dyad4a dyad5b peg2
+dyad2a dyad4b peg2
+dyad2b dyad9b peg2
+dyad1b dyad9a peg2
+
+dyad1b dyad6a peg3
+dyad1a dyad9b peg3
+dyad9a dyad8b peg3
+dyad0b dyad8a peg3
+dyad0a dyad6b peg3
+
+dyad0b dyad6a peg4
+dyad0a dyad4b peg4
+dyad2b dyad4a peg4
+dyad2a dyad7a peg4
+dyad7b dyad6b peg4
+
+dyad3b dyad5a peg5
+dyad3a dyad7b peg5
+dyad6a dyad7a peg5
+dyad1a dyad6b peg5
+dyad1b dyad5b peg5
+
+ 
+dyad3a dyad4a trig0
+dyad4b dyad9a trig0
+dyad3b dyad9b trig0
+
+dyad4a dyad9b trig1
+dyad4b dyad6b trig1
+dyad6a dyad9a trig1
+
+dyad6b dyad9b trig2
+dyad3a dyad9a trig2
+dyad3b dyad6a trig2
+
+dyad3a dyad6b trig3
+dyad4a dyad6a trig3
+dyad3b dyad4b trig3
+
+
+dyad4a dyad8a trig4
+dyad1a dyad4b trig4
+dyad1b dyad8b trig4
+
+dyad1a dyad8a trig5
+dyad7b dyad8b trig5
+dyad1b dyad7a trig5
+
+dyad1a dyad7b trig6
+dyad1b dyad4a trig6
+dyad4b dyad7a trig6
+
+dyad4a dyad7b trig7
+dyad7a dyad8a trig7
+dyad4b dyad8b trig7
+
+
+dyad0a dyad1a trig8
+dyad3a dyad1b trig8
+dyad3b dyad0b trig8
+
+dyad0a dyad3a trig9
+dyad2b dyad0b trig9
+dyad2a dyad3b trig9
+
+dyad3a dyad2b trig10
+dyad1a dyad3b trig10
+dyad2a dyad1b trig10
+
+dyad1a dyad2b trig11
+dyad0a dyad2a trig11
+dyad1b dyad0b trig11
+
+
+dyad2a dyad6a trig12
+dyad5a dyad6b trig12
+dyad2b dyad5b trig12
+
+dyad2b dyad6b trig13
+dyad6a dyad8a trig13
+dyad2a dyad8b trig13
+
+dyad2b dyad8a trig14
+dyad2a dyad5a trig14
+dyad5b dyad8b trig14
+
+dyad5b dyad6a trig15
+dyad6b dyad8b trig15
+dyad5a dyad8a trig15
+
+
+dyad5a dyad7a trig16
+dyad7b dyad9b trig16
+dyad5b dyad9a trig16
+
+dyad5a dyad9b trig17
+dyad0b dyad5b trig17
+dyad0a dyad9a trig17
+
+dyad0b dyad9b trig18
+dyad7a dyad9a trig18
+dyad0a dyad7b trig18
+
+dyad0b dyad7a trig19
+dyad0a dyad5a trig19
+dyad5b dyad7b trig19
+
+
+dyad4a dyad9a square0
+dyad3a dyad9b square0
+dyad3b dyad6b square0
+dyad4b dyad6a square0
+
+dyad3b dyad4a square1
+dyad4b dyad9b square1
+dyad6b dyad9a square1
+dyad3a dyad6a square1
+
+dyad4a dyad6b square2
+dyad3a dyad4b square2
+dyad3b dyad9a square2
+dyad6a dyad9b square2
+
+
+dyad1a dyad4a square3
+dyad4b dyad7b square3
+dyad7a dyad8b square3
+dyad1b dyad8a square3
+
+dyad1a dyad8b square4
+dyad1b dyad7b square4
+dyad4a dyad7a square4
+dyad4b dyad8a square4
+
+dyad1a dyad7a square5
+dyad7b dyad8a square5
+dyad4a dyad8b square5
+dyad1b dyad4b square5
+
+
+dyad0a dyad3b square6
+dyad2a dyad0b square6
+dyad2b dyad1b square6
+dyad3a dyad1a square6
+
+dyad0a dyad2b square7
+dyad1a dyad0b square7
+dyad1b dyad3b square7
+dyad3a dyad2a square7
+
+dyad0a dyad1b square8
+dyad3a dyad0b square8
+dyad2b dyad3b square8
+dyad1a dyad2a square8
+
+
+dyad2b dyad6a square9
+dyad2a dyad8a square9
+dyad5a dyad8b square9
+dyad5b dyad6b square9
+
+dyad2b dyad8b square10
+dyad2a dyad5b square10
+dyad5a dyad6a square10
+dyad6b dyad8a square10
+
+dyad2b dyad5a square11
+dyad2a dyad6b square11
+dyad6a dyad8b square11
+dyad5b dyad8a square11
+
+
+dyad0a dyad5b square12
+dyad0b dyad7b square12
+dyad7a dyad9b square12
+dyad5a dyad9a square12
+
+dyad0a dyad7a square13
+dyad0b dyad9a square13
+dyad5b dyad9b square13
+dyad5a dyad7b square13
+
+dyad0a dyad9b square14
+dyad0b dyad5a square14
+dyad5b dyad7a square14
+dyad7b dyad9a square14
+~
